@@ -1,0 +1,12 @@
+*{
+  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
+  list-style: none;
+}
+
+.header{
+  background-image: url(./assets/images/header-bg-img.png); 
+  background-repeat: no-repeat;
+  height: 100vh;
+}
