@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url(../assets/images/header-bg-img.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.header {
+  border: 2px solid red;
+}
+
+.header__top-inner {
+  border: 2px solid red;
+}
+
+.menu {
+  border: 2px solid red;
+}
+
+.logo {
+  border: 2px solid red;
+}
+
+.personal {
+  border: 2px solid red;
+}
+
+.social {
+  border: 2px solid red;
+}
+
+.btn {
+  border: 2px solid red;
+}
