@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 687 12" width="687" height="12">
+	<defs>
+		<image width="687" height="12" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAq8AAAAMAQMAAAB2uMa3AAAAAXNSR0IB2cksfwAAAAZQTFRF96479647dMnTLwAAAAJ0Uk5TAP9bkSK1AAAANUlEQVR4nGPg/08D8IDBnhbG/mCop4Wxf2hlLC1M/f9v1FiQsfW0MJZmKcGeFsb+YKBN5gUAD17+at1y7DUAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Our Blog">
+		<use id="Line" href="#img1" x="0" y="0" />
+	</g>
+</svg>

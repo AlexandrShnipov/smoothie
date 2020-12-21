@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24" width="12" height="24">
+	<defs>
+		<image width="12" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAYCAMAAAD57OxYAAAAAXNSR0IB2cksfwAAALdQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////A93RcQAAAD10Uk5TABN/y+bo5R/D//gKqPQ99vv672n5kzgyMX6AvgkFBn0PB5qkoNLpoad7/brulfyjQnq9v8ANgcIOdfKvDAwaxAcAAACOSURBVHicrc5XEoIwFIXhCxE1Joq9YSxg773vf13egxlhAZ6n/5tMAkSY44qMlxVx5/ISK6CVjlsWgZKPLFeqQI2z3mi22kCHIRz6rssIlAVOgh7K9M0AGJqRoTAaTxhTPZsvaCl/W9E6wYa2CVwKtb2zi/Z48MA4mtR3Tir1B+fLv3Bl3O4WD997vt4cHwfCDvMZpdtMAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Footer">
+		<g id="Footer">
+			<g id="Follow Us">
+				<use id="Facebook" href="#img1" x="0" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>
