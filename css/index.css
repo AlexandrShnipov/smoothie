@@ -22,7 +22,7 @@ a {
   color: black;
 }
 
-h{
+h {
   letter-spacing: -0.02em;
 }
 
@@ -202,34 +202,26 @@ h{
   line-height: 35px;
   font-weight: 00;
   margin-bottom: 90px;
- }
+}
 
 .smoothies__items {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   text-align: center;
-  flex-wrap: wrap;
   align-self: center;
   max-width: 1100px;
   min-height: 390px;
   font-weight: bold;
-  padding: 0;
-}
-
-.smoothies__item:nth-child(-n+4) {
-  border-bottom: 2px solid #f6ecdd;
-}
-
-.smoothies__item:nth-child(-n+3),
-.smoothies__item:nth-child(5),
-.smoothies__item:nth-child(6),
-.smoothies__item:nth-child(7) {
-  border-right: 2px solid #f6ecdd;
 }
 
 .smoothies__item {
-  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 25%;
   height: 195px;
   padding: 20px 15px 0px 15px;
 }
@@ -245,7 +237,17 @@ h{
   color: #f2612d;
   font-weight: 800;
   text-align: center;
+}
 
+.smoothies__item:nth-child(-n+4) {
+  border-bottom: 2px solid #f6ecdd;
+}
+
+.smoothies__item:nth-child(-n+3),
+.smoothies__item:nth-child(5),
+.smoothies__item:nth-child(6),
+.smoothies__item:nth-child(7) {
+  border-right: 2px solid #f6ecdd;
 }
 
 /* about */
@@ -700,7 +702,7 @@ h{
   font-size: 18px;
   line-height: 35px;
   font-weight: 700;
-  }
+}
 
 .footer__menu-link:hover {
   color: #fff;
