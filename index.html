@@ -28,13 +28,13 @@
                         <a class="menu__link" href="#">Story</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link" href="#">About</a>
+                        <a class="menu__link" href="#about">About</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link" href="#">Blog</a>
+                        <a class="menu__link" href="#blog">Blog</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link" href="#">Testimonials</a>
+                        <a class="menu__link" href="#testimonials">Testimonials</a>
                     </li>
                 </ul>
             </nav>
@@ -112,7 +112,7 @@
         </p>
         <div class="smoothies__items">
             <div class="smoothies__item">
-                <img class="smoothies__item-img" src="/assets/images/smoothies/Icon-plant basel.png" alt="image">
+                <img class="smoothies__item-img" src="/assets/images/smoothies/Icon-plant_basel.png" alt="image">
                 <h5 class="smoothies__item-title">
                     Plant Based
                 </h5>
@@ -163,23 +163,30 @@
     </section>
     <!-- /.smoothies -->
 
-    <section class="about">
+    <section class="about" id="about">
         <img class="about__img" src="/assets/images/about/Img.png" alt="image">
         <div class="about__content">
             <h2 class="about__title">
                 What makes Smoothie an <span class="about__title-special">awesome drink?</span>
             </h2>
             <ul class="about__list">
-                <li class="about__list-item"><span class="about__list-item--bold">Crunchy</span> Puffs Texture</li>
-                <li class="about__list-item"><span class="about__list-item--bold">100 Calories</span> per drink</li>
-                <li class="about__list-item">4g Plant Protein</li>
-                <li class="about__list-item"> Good source of <span class="about__list-item--bold">Magnesium & Vitamin
-                        B6</span></li>
-                <li class=" about__list-item"><span class="about__list-item--bold">No Sugar</span> in our Savory Flavors
+                <li class="about__list-item"><span class="about__list-item--extrabold">Crunchy</span> Puffs Texture</li>
+                <li class="about__list-item"><span class="about__list-item--extrabold">100 Calories</span> per drink
                 </li>
-                <li class=" about__list-item"><span class="about__list-item--bold">Non-GMO, Vegan & Paleo</span></li>
-                <li class="about__list-item"><span class="about__list-item--bold">Gluten-Free & Grain-Free</span></li>
-                <li class="about__list-item"><span class="about__list-item--bold">Corn-Free & Soy-Free</span></li>
+                <li class="about__list-item">4g Plant Protein</li>
+                <li class="about__list-item"> Good source of <span class="about__list-item--extrabold">Magnesium &
+                        Vitamin B6</span></li>
+                <li class=" about__list-item"><span class="about__list-item--extrabold">No Sugar</span> in our Savory
+                    Flavors
+                </li>
+                <li class=" about__list-item"><span class="about__list-item--extrabold">Non-GMO, Vegan & Paleo</span>
+                </li>
+                <li class="about__list-item"><span class="about__list-item--extrabold">Gluten-Free & Grain-Free</span>
+                </li>
+                <li class="about__list-item">
+                    <span class="about__list-item--extrabold>">Corn-Free &
+                        Soy-Free</span>
+                </li>
             </ul>
             <button class="btn btn__about">
                 About Organic Smoothie
@@ -193,7 +200,7 @@
         <div class="products__card">
             <img class="products__card-img" src="/assets/images/products/Img1.png" alt="image">
             <h5 class="products__card-description">
-                Dark Chocolate Smoothie <br> <span> 100 ml</span>
+                Dark Chocolate Smoothie <br> <span class="products__card-description--medium"> 100 ml</span>
             </h5>
             <button class="btn__products btn"> Buy
                 <img class="arrow--white" src="/assets/images/products/Arrow.png" alt="Arrow">
@@ -202,7 +209,7 @@
         <div class="products__card">
             <img class="products__card-img" src="/assets/images/products/Img2.png" alt="image">
             <h5 class="products__card-description">
-                Vegan Lettuce Smoothie <br> <span> 100 ml</span>
+                Vegan Lettuce Smoothie <br> <span class="products__card-description--medium"> 100 ml</span>
             </h5>
             <button class="btn__products btn"> Buy
                 <img class="arrow--white" src="/assets/images/products/Arrow.png" alt="Arrow">
@@ -211,7 +218,7 @@
         <div class="products__card">
             <img class="products__card-img" src="/assets/images/products/Img3.png" alt="image">
             <h5 class="products__card-description">
-                Lemon Ginger Smoothie <br> <span> 100 ml</span>
+                Lemon Ginger Smoothie <br> <span class="products__card-description--medium"> 100 ml</span>
             </h5>
             <button class="btn__products btn"> Buy
                 <img class="arrow--white" src="/assets/images/products/Arrow.png" alt="Arrow">
@@ -220,7 +227,7 @@
         <div class="products__card">
             <img class="products__card-img" src="/assets/images/products/Img4.png" alt="image">
             <h5 class="products__card-description">
-                Turmeric Garlic Smoothie <br> <span> 100 ml</span>
+                Turmeric Garlic Smoothie <br> <span class="products__card-description--medium"> 100 ml</span>
             </h5>
             <button class="btn__products btn"> Buy
                 <img class="arrow--white" src="/assets/images/products/Arrow.png" alt="Arrow">
@@ -247,13 +254,12 @@
             </div>
         </div>
         <div class="story__images">
-            <div story__images-stamp></div>
             <img class="story__images-img" src="/assets/images/story/Img.jpg" alt="image">
         </div>
     </section>
     <!-- /.story -->
 
-    <section class="testimonials">
+    <section class="testimonials" id="testimonials">
         <h3 class="testimonials__title title">
             Why clients <span class="testimonials__title--uppercase">love</span> us?
         </h3>
@@ -266,32 +272,34 @@
             <img class="testimonials__slaider-img" src="/assets/images/testimonials/Img.png" alt="image">
         </div>
         <div class="testimonials__arrow">
-            <img class="arrow__testimonials-left" src="/assets/images/testimonials/Arrow-left .png" alt="Arrow">
-            <img class="arrow__testimonials-rirht" src="/assets/images/testimonials/Arrow-right .png" alt="Arrow">
+            <img class="arrow__testimonials-left" src="/assets/images/testimonials/Arrow-left.png" alt="Arrow">
+            <img class="arrow__testimonials-rirht" src="/assets/images/testimonials/Arrow-right.png" alt="Arrow">
         </div>
     </section>
     <!-- /.testimonials -->
 
-    <section class="blog">
-        <h3 class="blog__title title">
-            Our blog
-        </h3>
-        <div class="blog__post">
-            <img class="blog__post-img" src="/assets/images/blog/Img.jpg" alt="image">
-            <div class="blog__post-item">
-                <h4 class="blog__post-title">
-                    ASAFOETIDA - THE NEXT TURMERIC?
-                </h4>
-                <date class="blog__post-date">
-                    Jun 16, 2020
-                </date>
-                <p class="blog__post-text">
-                    If the fruit ingredients and the green vegetable ingredients are both juiced ahead of time, the
-                    mixed juice doesn't even have to be blended like a smoothie, i.e. a green juice or anything...
-                    <a class="blog__post-link" href="#">Read More
-                        <img class="blog__link-arrow" src="/assets/images/Arrow-right.png" alt="Arrow">
-                    </a>
-                </p>
+    <section class="blog" id="blog">
+        <div class="blog__container">
+            <h3 class="blog__title title">
+                Our blog
+            </h3>
+            <div class="blog__post">
+                <img class="blog__post-img" src="/assets/images/blog/Img.jpg" alt="image">
+                <div class="blog__post-item">
+                    <h4 class="blog__post-title">
+                        asafoetida - the next turmeric?
+                    </h4>
+                    <p class="blog__post-date">
+                        Jun 16, 2020
+                    </p>
+                    <p class="blog__post-text">
+                        If the fruit ingredients and the green vegetable ingredients are both juiced ahead of time, the
+                        mixed juice doesn't even have to be blended like a smoothie, i.e. a green juice or anything...
+                        <a class="blog__post-link" href="#">Read More
+                            <img class="blog__link-arrow" src="/assets/images/Arrow-right.png" alt="Arrow">
+                        </a>
+                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -352,7 +360,7 @@
                                 <li class="footer__menu-item">
                                     <a class="footer__menu-link" href="#">Terms & Conditions</a>
                                 </li>
-                                <li class="footer__menu-link" class="footer__menu-item">
+                                <li class="footer__menu-item">
                                     <a class="footer__menu-link" href="#"> Privacy Policy</a>
                                 </li>
                             </ul>
@@ -364,14 +372,14 @@
                         </h5>
                         <div class="footer__payment-block">
                             <img class="footer__payment-icon" src="/assets/images/footer/AMEX.svg" alt="AMEX">
-                            <img class="footer__payment-icon" src="/assets/images/footer/Apple Pay.svg" alt="Apple Pay">
+                            <img class="footer__payment-icon" src="/assets/images/footer/Apple_Pay.svg" alt="Apple Pay">
                             <img class="footer__payment-icon" src="/assets/images/footer/Maestro.svg" alt="Maestro">
                             <img class="footer__payment-icon" src="/assets/images/footer/Discover.svg" alt="Discover">
                             <img class="footer__payment-icon" src="/assets/images/footer/JCB.svg" alt="JCB">
                             <img class="footer__payment-icon" src="/assets/images/footer/Mastercard.svg"
                                 alt="Mastercard">
                             <img class="footer__payment-icon" src="/assets/images/footer/Paypal.svg" alt="Paypal">
-                            <img class="footer__payment-icon" src="/assets/images/footer/Shopify Pay.svg"
+                            <img class="footer__payment-icon" src="/assets/images/footer/Shopify_Pay.svg"
                                 alt="Shopify Pay">
                             <img class="footer__payment-icon" src="/assets/images/footer/Visa.svg" alt="Visa">
                         </div>
@@ -416,7 +424,6 @@
                 </div>
             </div>
             <!-- footer-container -->
-        </div>
         </div>
         <div class="footer__bottom">
             <div class="copyright">
