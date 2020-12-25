@@ -28,6 +28,8 @@ h {
 
 .btn {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   outline: none;
   cursor: pointer;
   border-radius: 99em;
@@ -36,8 +38,6 @@ h {
   -ms-border-radius: 99em;
   -o-border-radius: 99em;
   border: none;
-  align-items: center;
-  justify-content: space-between;
   font-weight: 800;
 }
 
@@ -89,6 +89,11 @@ h {
 .menu__link {
   color: #fff;
 }
+
+.menu__link:hover {
+  color: #09a565;
+}
+
 
 .header__links {
   width: 540px;
@@ -169,8 +174,8 @@ h {
 }
 
 .header__btn--green {
-  width: 281px;
-  height: 71px;
+  width: 280px;
+  height: 70px;
   padding: 0 40px 0;
   background-color: #09a565;
   color: #fff;
@@ -260,11 +265,11 @@ h {
 }
 
 .about__img {
-  /* transform: translate(-170px, 0px); */
-  margin-right: 20%;
-  position: relative;
-  /* object-fit: cover; */
-  top: 75px;
+  transform: translate(0px, 85px);
+  margin-right: 270px;
+  /* position: relative; */
+  object-fit: contain;
+  /* top: 85px; */
 }
 
 .about__content {
@@ -339,7 +344,7 @@ h {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 25%;
+  flex-basis: 25%;
   padding-top: 130px;
   color: #fff;
   font-weight: 800;
@@ -549,7 +554,6 @@ h {
   margin-bottom: 50px;
 }
 
-
 .blog__post {
   display: flex;
   justify-content: space-between;
@@ -628,9 +632,9 @@ h {
   color: #0aa566;
   font-size: 24px;
   line-height: 40px;
-  margin-bottom: 45px;
-  font-weight: 800;
   letter-spacing: -0.02em;
+  font-weight: 800;
+  margin-bottom: 45px;
 }
 
 .instagram__link-icon {
@@ -639,9 +643,6 @@ h {
 
 .instagram__cards {
   display: flex;
-  justify-content: last baseline;
-
-
 }
 
 .instagram__card {
