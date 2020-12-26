@@ -64,18 +64,15 @@ h {
 
 .header-top {
   max-width: 1720px;
-  margin: 0 5%;
+  margin: 0 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 100px;
 }
 
-.menu {
-  width: 540px;
-}
-
 .menu__list {
+  width: 540px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -94,9 +91,24 @@ h {
   color: #09a565;
 }
 
+.logo {
+  position: absolute;
+  left: 50%;
+}
+
+.logo__img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
 
 .header__links {
-  width: 540px;
+  width: 430px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -111,6 +123,8 @@ h {
 
 .header__links-line::before {
   content: "";
+  margin-left: 50px;
+  margin-right: 50px;
   width: 50px;
   height: 2px;
   border-bottom: 2px solid #ffd68f;
@@ -118,7 +132,7 @@ h {
 }
 
 .personal__list {
-  width: 130px;
+  width: 155px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -143,7 +157,7 @@ h {
 }
 
 .social__list {
-  min-width: 125px;
+  min-width: 130px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -169,7 +183,6 @@ h {
 }
 
 .header__content {
-  flex-direction: row;
   align-self: center;
 }
 
