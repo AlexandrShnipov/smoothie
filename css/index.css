@@ -9,8 +9,10 @@
   src: url(/assets/fonts/Muli-Regular.woff);
 }
 
+html,
 body {
-  font-family: 'Muli', serif;
+  font-family: 'Muli', sans-serif;
+  font-size: 10px;
 }
 
 ul {
@@ -47,7 +49,7 @@ button {
 }
 
 .title {
-  font-size: 50px;
+  font-size: 5rem;
   line-height: 40px;
   color: #f7ae3b;
   font-weight: 800;
@@ -87,7 +89,7 @@ button {
   align-items: center;
   text-transform: uppercase;
   font-weight: inherit;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 40px;
   letter-spacing: 0.02em;
 }
@@ -103,16 +105,15 @@ button {
 .header__logo {
   position: absolute;
   left: 50%;
-  margin-top: -20px;
 }
 
 .header__logo-img {
   position: absolute;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -20%);
+  -webkit-transform: translate(-50%, -20%);
+  -moz-transform: translate(-50%, -20%);
+  -ms-transform: translate(-50%, -20%);
+  -o-transform: translate(-50%, -20%);
 }
 
 .header__links {
@@ -120,7 +121,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  }
+}
 
 /* для полоски: два свойства */
 .header__links-line {
@@ -160,7 +161,7 @@ button {
   height: 20px;
   border-radius: 50%;
   text-align: center;
-  padding-top: 1p;
+  padding-top: 4px;
 }
 
 .social__list {
@@ -198,7 +199,7 @@ button {
   height: 70px;
   padding: 0 40px 0;
   background-color: #09a565;
-  font-size: 24px;
+  font-size: 2.4rem;
   align-self: center;
 }
 
@@ -222,7 +223,7 @@ button {
   max-width: 915px;
   max-height: 122px;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 35px;
   margin-bottom: 90px;
 }
@@ -256,7 +257,7 @@ button {
 }
 
 .smoothies__item-title {
-  font-size: 25px;
+  font-size: 2.5rem;
   color: #f2612d;
   font-weight: 800;
   text-align: center;
@@ -280,6 +281,8 @@ button {
   justify-content: center;
   min-height: 800px;
   background-color: #11846d;
+  font-size: 2.1rem;
+  line-height: 22px;
 }
 
 .about__img {
@@ -296,7 +299,7 @@ button {
 }
 
 .about__title {
-  font-size: 55px;
+  font-size: 5.5rem;
   line-height: 60px;
   margin-top: 95px;
   margin-bottom: 65px;
@@ -322,8 +325,6 @@ button {
 }
 
 .about__list {
-  font-size: 21px;
-  line-height: 22px;
   margin-bottom: 50px;
   list-style-image: url(/assets/images/about/icon-list.png);
   list-style-position: inside;
@@ -343,8 +344,6 @@ button {
   height: 60px;
   border: 2px solid #f7b131;
   background-color: inherit;
-  font-size: 21px;
-  line-height: 22px;
   color: inherit;
   padding: 0 30px 0;
 }
@@ -390,7 +389,7 @@ button {
 
 .products__card-description {
   margin-bottom: 60px;
-  font-size: 20px;
+  font-size: 2rem;
   color: inherit;
   font-weight: inherit;
 }
@@ -405,7 +404,7 @@ button {
   height: 60px;
   border: 2px solid #fff;
   padding: 0 35px 0;
-  font-size: 21px;
+  font-size: 2.1rem;
   line-height: 22px;
 }
 
@@ -447,7 +446,7 @@ button {
 }
 
 .story__text {
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 35px;
   margin-bottom: 60px;
 }
@@ -457,7 +456,7 @@ button {
   height: 60px;
   background-color: #09a565;
   padding: 0 40px 0;
-  font-size: 21px;
+  font-size: 2.1rem;
   line-height: 22px;
 }
 
@@ -476,7 +475,7 @@ button {
 .testimonials__title {
   text-align: center;
   margin-bottom: 120px;
-  font-size: 50px;
+  font-size: 5rem;
   line-height: 40px;
 }
 
@@ -495,7 +494,7 @@ button {
   max-width: 450px;
   min-height: 130px;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 30px;
   margin-top: 50px;
   margin-right: 60px;
@@ -603,7 +602,7 @@ button {
 
 .blog__post-title {
   color: #f2612d;
-  font-size: 30px;
+  font-size: 3rem;
   line-height: 40px;
   margin-top: 130px;
   font-weight: 800;
@@ -613,13 +612,13 @@ button {
 
 
 .blog__post-date {
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 35px;
   margin-bottom: 50px;
 }
 
 .blog__post-text {
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 35px;
   max-width: 480px;
   margin-left: 75px;
@@ -646,7 +645,7 @@ button {
   display: flex;
   justify-content: center;
   color: #0aa566;
-  font-size: 24px;
+  font-size: 2.4rem;
   line-height: 40px;
   letter-spacing: -0.02em;
   font-weight: 800;
@@ -707,7 +706,7 @@ button {
 }
 
 .footer__title {
-  font-size: 26px;
+  font-size: 2.6rem;
   line-height: 40px;
   color: #fff;
   margin-bottom: 40px;
@@ -716,7 +715,7 @@ button {
 
 .footer__menu-link {
   color: #6d450c;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 35px;
   font-weight: 700;
 }
@@ -746,7 +745,7 @@ button {
   background-image: url(/assets/images/footer/Icon_input.svg);
   background-repeat: no-repeat;
   background-position: left 30px center;
-  font-size: 17px;
+  font-size: 1.7rem;
   font-weight: 700;
   padding-left: 80px;
   border: none;
@@ -811,7 +810,7 @@ button {
 
 .copyright {
   color: #af8a82;
-  font-size: 13px;
+  font-size: 1.3rem;
   white-space: nowrap;
   letter-spacing: 0.02em;
 }
@@ -825,7 +824,7 @@ button {
 }
 
 .go-top__text {
-  font-size: 16px;
+  font-size: 1.6;
   color: #fff;
   font-weight: 700;
 }
@@ -865,8 +864,18 @@ button {
 /* адаптив */
 
 @media (max-width:768px) {
+
+  .header {
+    padding-top: 190px;
+  }
+
+  /* .header__navigation {
+    display: none;
+  } */
+
   .header__navigation {
     position: fixed;
+    width: 100%;
     z-index: 1;
     top: 0;
     bottom: 0;
@@ -877,34 +886,59 @@ button {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: flex-end;
-    padding-top: 150px;
+    padding-top: 200px;
   }
 
-   .header__links {
-    max-width: 700px;
-    padding: 0;
-    margin-bottom: 120px;
+  .personal__icon,
+  .social__icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .social__list-item {
+    width: 45px;
+    height: 45px;
+  }
+
+  .header__links {
+    margin-bottom: 100px;
   }
 
   .social__list {
     width: 155px;
   }
 
-    .menu__list {
+  .menu__list {
     flex-direction: column;
-      }
+    font-size: 2rem;
+  }
 
-      .menu__item:not(:last-child){
-        margin-bottom: 30px;
-      }
+  .menu__item:not(:last-child) {
+    margin-bottom: 40px;
+  }
 
-.header__burger-btn {
+  .menu__link:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+  }
+
+  .header__logo-img {
+    width: 290px;
+    position: absolute;
+    transform: translate(-50%, -20%);
+    -webkit-transform: translate(-50%, -100%);
+    -moz-transform: translate(-50%, -20%);
+    -ms-transform: translate(-50%, -20%);
+    -o-transform: translate(-50%, -20%);
+  }
+
+  .header__burger-btn {
     display: block;
     position: absolute;
-    top: -60px;
+    width: 50px;
+    top: -140px;
     right: -50px;
-    width: 60px;
-    z-index: 2;
+    z-index: 99;
   }
 
   .header__burger-btn--line {
@@ -913,6 +947,25 @@ button {
     background-color: #fff;
     height: 5px;
     border-radius: 99em;
-    cursor: pointer;
   }
+}
+
+@media (max-width:520px) {
+  .header__links-line {
+    display: none;
+  }
+
+  .header__links {
+    flex-direction: column;
+  }
+
+  .social__list,
+  .personal__list {
+    width: 180px;
+  }
+
+  .personal__list {
+    margin-bottom: 50px;
+  }
+
 }
