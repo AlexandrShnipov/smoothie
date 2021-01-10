@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'Muli';
+  src: url(/assets/fonts/Muli-Regular.woff);
+}
+html,
+body {
+  font-family: 'Muli', sans-serif;
+  font-size: 10px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h {
+  letter-spacing: -0.02em;
+}
+.title {
+  font-size: 5rem;
+  line-height: 40px;
+  color: #f7ae3b;
+  font-weight: 800;
+}

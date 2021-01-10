@@ -28,14 +28,16 @@ h {
   letter-spacing: -0.02em;
 }
 
+.title {
+  font-size: 5rem;
+  line-height: 40px;
+  color: #f7ae3b;
+  font-weight: 800;
+}
+
 button {
   background-color: transparent;
   border: none;
-}
-
-.selector {
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .btn {
@@ -44,6 +46,7 @@ button {
   justify-content: space-between;
   outline: none;
   cursor: pointer;
+  height: 60px;
   border-radius: 99em;
   -webkit-border-radius: 99em;
   -moz-border-radius: 99em;
@@ -53,17 +56,9 @@ button {
   font-weight: 800;
 }
 
-.title {
-  font-size: 5rem;
-  line-height: 40px;
-  color: #f7ae3b;
-  font-weight: 800;
-}
-
 /* header */
 
 .header {
-  padding-top: 100px;
   height: 100vh;
   background-image: url(/assets/images/header/header-bg-img.png);
   background-position: center;
@@ -109,19 +104,15 @@ button {
 .header__logo {
   position: absolute;
   left: 50%;
-}
-
-.header__logo-img {
-  position: absolute;
-  transform: translate(-50%, -20%);
-  -webkit-transform: translate(-50%, -20%);
-  -moz-transform: translate(-50%, -20%);
-  -ms-transform: translate(-50%, -20%);
-  -o-transform: translate(-50%, -20%);
+  transform: translate(-50%, -65%);
+  -webkit-transform: translate(-50%, -65%);
+  -moz-transform: translate(-50%, -65%);
+  -ms-transform: translate(-50%, -65%);
+  -o-transform: translate(-50%, -65%);
 }
 
 .header__links {
-  width: 430px;
+  width: 425px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -198,7 +189,7 @@ button {
   align-self: center;
 }
 
-.header__btn--green {
+.header__btn {
   width: 280px;
   height: 70px;
   padding: 0 40px 0;
@@ -321,9 +312,6 @@ button {
   width: 450px;
   height: 13px;
   background-image: url(/assets/images/about/Line.svg);
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
   left: 70px;
   top: 115px;
 }
@@ -345,7 +333,6 @@ button {
 .btn__about {
   z-index: 1;
   width: 380px;
-  height: 60px;
   border: 2px solid #f7b131;
   background-color: inherit;
   color: inherit;
@@ -406,7 +393,6 @@ button {
 .btn__products {
   background-color: inherit;
   width: 205px;
-  height: 60px;
   border: 2px solid #fff;
   padding: 0 35px 0;
   font-size: 2.1rem;
@@ -456,7 +442,6 @@ button {
 
 .btn__story {
   width: 300px;
-  height: 60px;
   background-color: #09a565;
   padding: 0 40px 0;
   font-size: 2.1rem;
@@ -662,11 +647,11 @@ button {
 
 .instagram__card {
   position: relative;
+  flex-basis: 20%;
 }
 
 .instagram__card-img {
   width: 100%;
-  object-fit: cover;
 }
 
 .instagram__card-icon {
@@ -869,7 +854,7 @@ button {
 @media (max-width:1600px) {
 
   .header {
-    padding-top: 170px;
+    padding-top: 120px;
   }
 
   .header-top {
@@ -878,12 +863,13 @@ button {
 
   .header__logo-img {
     width: 280px;
-    transform: translate(-50%, -130%);
-    -webkit-transform: translate(-50%, -130%);
-    -moz-transform: translate(-50%, -130%);
-    -ms-transform: translate(-50%, -130%);
-    -o-transform: translate(-50%, -130%);
-  }
+    left: 50%;
+    transform: translate(-0%, -100%);
+    -webkit-transform: translate(-0%, -100%);
+    -moz-transform: translate(-0%, -100%);
+    -ms-transform: translate(-0%, -100%);
+    -o-transform: translate(-0%, -100%);
+}
 
   .about__title {
     font-size: 5rem;
@@ -902,14 +888,13 @@ button {
 @media (max-width:1366px) {
 
   .header {
-    padding-top: 150px;
     margin-bottom: 50px;
   }
 
   .header-top {
     margin-left: 60px;
     margin-right: 60px;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
   }
 
   .menu__list {
@@ -928,7 +913,7 @@ button {
     width: 240px;
   }
 
-  .header__btn--green {
+  .header__btn {
     width: 265px;
     height: 55px;
     padding: 0px 40px 0;
@@ -1033,10 +1018,19 @@ button {
 @media (max-width:1100px) {
 
   .header {
-    padding-top: 110px;
+    padding-top: 80 px;
   }
 
-  .menu__list {
+  .header__logo-img {
+    left: 50%;
+    transform: translate(-0%, -210%);
+    -webkit-transform: translate(-0%, -210%);
+    -moz-transform: translate(-0%, -210%);
+    -ms-transform: translate(-0%, -210%);
+    -o-transform: translate(-0%, -210%);
+}
+
+  .menu__list{
     width: 700px;
   }
 
@@ -1491,7 +1485,7 @@ button {
     -o-transform: translate(-50%, -280%);
   }
 
-  .header__btn--green {
+  .header__btn {
     width: 240px;
     height: 50px;
     padding: 0px 40px 0;
@@ -1557,7 +1551,7 @@ button {
 @media (max-width:400px) {
 
   .header-top {
-    margin-bottom: 180px;
+    margin-bottom: 110px;
   }
 
   .header__logo-img {
@@ -1661,7 +1655,7 @@ button {
 
 @media (max-width:320px) {
 
-    .story__images-img {
+  .story__images-img {
     width: 290px;
     height: 345px;
   }
