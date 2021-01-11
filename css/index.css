@@ -412,6 +412,7 @@ button {
 .story__images {
   /* для штампа */
   position: relative;
+  object-fit: cover;
 }
 
 .story__images-stamp {
@@ -572,7 +573,7 @@ button {
 .blog__post::before {
   content: "";
   position: absolute;
-  width: 700px;
+  width: 690px;
   height: 20px;
   background-image: url(/assets/images/blog/Line.svg);
   background-repeat: no-repeat;
@@ -629,9 +630,9 @@ button {
 .instagram__link {
   display: flex;
   justify-content: center;
+  align-items: center;
   color: #0aa566;
   font-size: 2.4rem;
-  line-height: 40px;
   letter-spacing: -0.02em;
   font-weight: 800;
   margin-bottom: 45px;
@@ -861,6 +862,10 @@ button {
     margin-bottom: 55px;
   }
 
+  .menu__listб .menu__list {
+    width: 500px;
+  }
+
   .header__logo-img {
     width: 280px;
     left: 50%;
@@ -869,7 +874,7 @@ button {
     -moz-transform: translate(-0%, -100%);
     -ms-transform: translate(-0%, -100%);
     -o-transform: translate(-0%, -100%);
-}
+  }
 
   .about__title {
     font-size: 5rem;
@@ -898,7 +903,7 @@ button {
   }
 
   .menu__list {
-    width: 480px;
+    width: 430px;
   }
 
   .menu__list {
@@ -906,7 +911,7 @@ button {
   }
 
   .header__links {
-    width: 400px;
+    width: 430px;
   }
 
   .header__logo-img {
@@ -964,7 +969,7 @@ button {
 
   .blog__post-text {
     margin-left: 20px;
-    width: 400px;
+    max-width: 400px;
     font-size: 1.5rem;
   }
 
@@ -979,9 +984,9 @@ button {
   }
 
   .about__img {
-    width: 691px;
-    height: 818px;
-    transform: translate(-10px, 75px);
+    width: 600px;
+    height: 727px;
+    transform: translate(-10px, 7px);
     margin-right: 0;
   }
 
@@ -994,7 +999,7 @@ button {
   }
 
   .story {
-    margin-bottom: 130px;
+    margin-bottom: 80px;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -1028,9 +1033,9 @@ button {
     -moz-transform: translate(-0%, -210%);
     -ms-transform: translate(-0%, -210%);
     -o-transform: translate(-0%, -210%);
-}
+  }
 
-  .menu__list{
+  .menu__list {
     width: 700px;
   }
 
@@ -1066,31 +1071,6 @@ button {
   }
 
   .products__card {
-    padding-top: 80px;
-  }
-
-  .products__card-description {
-    margin-bottom: 45px;
-    font-size: 1.5rem;
-  }
-
-  .btn__products {
-    height: 50px;
-    font-size: 1.5rem;
-  }
-
-  .testimonials {
-    min-height: 685px;
-  }
-
-  .testimonials__slaider-text::before {
-    font-size: 19rem;
-  }
-}
-
-@media (max-width:1024px) {
-
-  .products__card {
     flex-basis: 50%;
     padding-top: 60px;
   }
@@ -1101,7 +1081,78 @@ button {
 
   .btn__products {
     margin-bottom: 20px;
+    height: 50px;
+     }
+
+  /* .products__card {
+    padding-top: 80px;
   }
+
+  .products__card-description {
+    margin-bottom: 45px;
+    font-size: 1.5rem;
+  } */
+
+  /* .btn__products {
+    height: 50px;
+    font-size: 1.5rem;
+  } */
+
+  .testimonials {
+    min-height: 685px;
+  }
+
+  .testimonials__slaider-text::before {
+    font-size: 19rem;
+  }
+
+  .blog {
+    margin-bottom: 100px;
+  }
+
+  .blog__container {
+    max-width: 980px;
+  }
+
+  .blog__post-title {
+    font-size: 2rem;
+    margin-top: 115px;
+  }
+
+  .blog__post-img {
+    margin-right: 10px;
+  }
+
+  .blog__post::before {
+    left: 260px;
+  }
+
+  .blog__post-date {
+    font-size: 1.5rem;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+
+  .blog__post-text {
+    font-size: 1.5rem;
+    margin-left: 15px;
+  }
+}
+
+@media (max-width:1024px) {
+
+  /* .products__card {
+    flex-basis: 50%;
+    padding-top: 60px;
+  }
+
+  .products__card-description {
+    margin-bottom: 35px;
+  }
+
+  .btn__products {
+    margin-bottom: 20px;
+  } */
 
   .story {
     flex-direction: column;
@@ -1151,6 +1202,51 @@ button {
   .testimonials__slaider-img {
     max-width: 170px;
     max-height: 170px;
+  }
+
+  .blog {
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f6ecdd;
+  }
+
+  .blog__container {
+    align-items: center;
+    max-width: 1100px;
+  }
+
+  .blog__post {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .blog__title {
+    margin-bottom: 35px;
+    margin-right: 345px;
+  }
+
+  .blog__post-title {
+    margin: 0px;
+  }
+
+  .blog__post-text {
+    margin-left: 0;
+    margin-bottom: 40px;
+    max-width: 550px;
+  }
+
+  .blog__post::before {
+    left: -65px;
+    top: 205px;
+  }
+
+  .blog__post-img {
+    margin: 0;
+    width: 800px;
+  }
+
+  .instagram__link {
+    margin-bottom: 30px;
   }
 }
 
@@ -1202,6 +1298,17 @@ button {
     left: 325px;
     top: 0px;
   }
+
+  .instagram__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .instagram__card {
+    flex-basis: 33.33%;
+  }
+
 }
 
 @media (max-width:768px) {
@@ -1223,8 +1330,6 @@ button {
     -ms-transform: translate(-50%, -130%);
     -o-transform: translate(-50%, -130%);
   }
-
-
 
   /* .header__navigation {
       position: fixed;
@@ -1336,9 +1441,9 @@ button {
     left: -25px;
   }
 
-  .about {
+  /* .about {
     font-size: 1.5rem;
-  }
+  } */
 
   .story__images-img {
     width: 490px;
@@ -1361,6 +1466,43 @@ button {
 
   .testimonials__arrow {
     max-width: 200px;
+  }
+
+  .blog__post::before {
+    display: none;
+  }
+}
+
+@media (max-width:600px) {
+
+  .products__card {
+    flex-basis: 100%;
+  }
+
+  .blog__title {
+    margin-right: 280px;
+  }
+
+  .blog__post-text {
+    max-width: 435px;
+  }
+
+  .blog__post-img {
+    width: 460px;
+  }
+
+  .instagram__link {
+    font-size: 1.5rem;
+  }
+
+  .instagram__link-icon {
+    margin-right: 10px;
+    width: 21px;
+    height: 21px;
+  }
+
+  .instagram__card {
+    flex-basis: 50%;
   }
 }
 
@@ -1423,14 +1565,20 @@ button {
   }
 
   .btn__about {
-    width: 300px;
-    height: 50px;
+    width: 360px;
+    height: 60px;
     padding: 0 25px 0;
     margin-bottom: 15px;
+    margin-bottom: 15px;
+  }
+
+  .story {
+    margin-bottom: 50px;
   }
 
   .story__title {
     padding-top: 10px;
+    margin-bottom: 20px;
   }
 
   .story__text {
@@ -1468,6 +1616,31 @@ button {
   .testimonials__slaider-text {
     font-size: 1.5rem;
   }
+
+  .blog {
+    margin-bottom: 40px;
+  }
+
+  .blog__title {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  .blog__post-date {
+    margin-bottom: 20px;
+  }
+
+  .blog__post-text {
+    line-height: 30px;
+  }
+
+  .blog__post-text {
+    max-width: 400px;
+  }
+
+  .blog__post-img {
+    width: 400px;
+  }
 }
 
 @media (max-width:480px) {
@@ -1486,10 +1659,10 @@ button {
   }
 
   .header__btn {
-    width: 240px;
-    height: 50px;
-    padding: 0px 40px 0;
-    font-size: 2rem;
+    width: 200px;
+    height: 40px;
+    padding: 0px 30px 0;
+    font-size: 1.5rem;
   }
 
   .social__list,
@@ -1521,9 +1694,9 @@ button {
     max-width: 295px;
   }
 
-  .products__card {
+  /* .products__card {
     flex-basis: 100%;
-  }
+  } */
 
   .story__images-img {
     width: 380px;
@@ -1536,6 +1709,7 @@ button {
 
   .testimonials {
     padding-top: 40px;
+    margin-bottom: 20px;
   }
 
   .testimonials__slaider-img {
@@ -1545,6 +1719,37 @@ button {
 
   .testimonials__slaider {
     margin-bottom: 40px;
+  }
+
+  .blog__title {
+    margin-bottom: 20px;
+  }
+
+  .blog__post-date {
+    font-size: 1.2rem;
+  }
+
+  .blog__post-title {
+    font-size: 1.5rem;
+    line-height: 20px;
+  }
+
+  .blog__post-text {
+    font-size: 1.2rem;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .blog__post-text {
+    max-width: 320px;
+  }
+
+  .blog__post-img {
+    width: 325px;
+  }
+
+  .instagram__card {
+    flex-basis: 100%;
   }
 }
 
@@ -1563,9 +1768,13 @@ button {
     -o-transform: translate(-50%, -280%);
   }
 
+  .smoothies {
+    margin-bottom: 50px;
+  }
+
   .smoothies__title {
     font-size: 2rem;
-    line-height: 2rem;
+    line-height: 3rem;
     margin-bottom: 20px;
   }
 
@@ -1588,8 +1797,17 @@ button {
     font-size: 1.5rem;
   }
 
+  .smoothies__items {
+    margin-bottom: 10px;
+  }
+
   .smoothies__item:nth-child(2n+1) {
     border-right: none;
+  }
+
+  .smoothies__item:nth-child(7),
+  .smoothies__item:nth-child(8) {
+    border-bottom: 2px solid #f6ecdd;
   }
 
   .about__title {
@@ -1602,8 +1820,6 @@ button {
   }
 
   .about {
-    padding-left: 10px;
-    padding-right: 10px;
     font-size: 1.2rem;
   }
 
@@ -1633,13 +1849,13 @@ button {
   }
 
   .story__images-img {
-    width: 350px;
-    height: 415px;
+    width: 295px;
+    height: 350px;
   }
 
   .btn__story {
-    width: 250px;
-    height: 50px;
+    width: 200px;
+    height: 40px;
     padding: 0 30px 0;
   }
 
@@ -1651,12 +1867,24 @@ button {
     max-width: 140px;
     max-height: 140px;
   }
+
+  .blog__post-text {
+    max-width: 260px;
+  }
+
+  .blog__post-img {
+    width: 264px;
+  }
 }
 
 @media (max-width:320px) {
 
-  .story__images-img {
-    width: 290px;
-    height: 345px;
+  .header__logo-img {
+    width: 185px;
+    transform: translate(-50%, -130%);
+    -webkit-transform: translate(-50%, -130%);
+    -moz-transform: translate(-50%, -130%);
+    -ms-transform: translate(-50%, -130%);
+    -o-transform: translate(-50%, -130%);
   }
 }
