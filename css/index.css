@@ -855,7 +855,7 @@ button {
 @media (max-width:1600px) {
 
   .header {
-    padding-top: 120px;
+    padding-top: 90px;
   }
 
   .header-top {
@@ -1082,7 +1082,7 @@ button {
   .btn__products {
     margin-bottom: 20px;
     height: 50px;
-     }
+  }
 
   /* .products__card {
     padding-top: 80px;
@@ -1315,6 +1315,10 @@ button {
 
   .header {
     padding-top: 190px;
+  }
+
+  .header-top {
+    margin-bottom: 70px;
   }
 
   .header__navigation {
@@ -1649,6 +1653,10 @@ button {
     margin-bottom: 30px;
   }
 
+  .header-top {
+    margin-bottom: 350px;
+  }
+
   .header__logo-img {
     width: 170px;
     transform: translate(-50%, -280%);
@@ -1681,18 +1689,39 @@ button {
     height: 40px;
   }
 
+  .btn__about {
+    width: 270px;
+    height: 40px;
+    padding: 0 25px 0;
+    margin-bottom: 15px;
+  }
+
+
   .about__img {
     display: none;
   }
 
-  .about__list {
+  .about {
+    font-size: 1.2rem;
+  }
+
+  .about__title {
+    font-size: 2rem;
+    max-width: 230px;
+  }
+
+  .about__list .about__list-item:not(:last-child) {
+    margin-bottom: 5px;
+  }
+
+  /* .about__list {
     margin-bottom: 30px;
   }
 
   .about__title {
     font-size: 2.5rem;
     max-width: 295px;
-  }
+  } */
 
   /* .products__card {
     flex-basis: 100%;
@@ -1755,9 +1784,6 @@ button {
 
 @media (max-width:400px) {
 
-  .header-top {
-    margin-bottom: 110px;
-  }
 
   .header__logo-img {
     width: 140px;
@@ -1810,6 +1836,10 @@ button {
     border-bottom: 2px solid #f6ecdd;
   }
 
+  /* .about {
+    font-size: 1.2rem;
+  }
+
   .about__title {
     font-size: 2rem;
     max-width: 230px;
@@ -1817,22 +1847,8 @@ button {
 
   .about__list .about__list-item:not(:last-child) {
     margin-bottom: 5px;
-  }
+  } */
 
-  .about {
-    font-size: 1.2rem;
-  }
-
-  .about__title {
-    line-height: 2.5rem;
-  }
-
-  .btn__about {
-    width: 270px;
-    height: 40px;
-    padding: 0 25px 0;
-    margin-bottom: 15px;
-  }
 
   .story__title {
     padding-top: 0;
@@ -1877,7 +1893,11 @@ button {
   }
 }
 
-@media (max-width:320px) {
+@media (max-width:325px) {
+
+  .header-top {
+    margin-bottom: 220px;
+  }
 
   .header__logo-img {
     width: 185px;
@@ -1886,5 +1906,23 @@ button {
     -moz-transform: translate(-50%, -130%);
     -ms-transform: translate(-50%, -130%);
     -o-transform: translate(-50%, -130%);
+  }
+
+  .about {
+    font-size: 1rem;
+    padding-left: 45px;
+    flex-wrap: wrap;
+  }
+
+  .about__title {
+       line-height: 3rem;
+}
+
+.about__list {
+  margin-bottom: 35px;}
+
+  .btn__about {
+    width: 200px;
+    padding: 0 15px 0;
   }
 }
