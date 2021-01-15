@@ -9,6 +9,21 @@
   src: url(/assets/fonts/Muli-Regular.woff);
 }
 
+@font-face {
+  font-family: 'Muli_Bold';
+  src: url(/assets/fonts/Muli-Bold.woff);
+}
+
+@font-face {
+  font-family: 'Muli_ExtraBold';
+  src: url(/assets/fonts/Muli-ExtraBold.woff);
+}
+
+@font-face {
+  font-family: 'Muli_ExtraBoldItalic';
+  src: url(/assets/fonts/Muli-ExtraBoldItalic.woff);
+}
+
 html,
 body {
   font-family: 'Muli', sans-serif;
@@ -21,7 +36,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: black;
+  /* color: black; */
 }
 
 h {
@@ -32,28 +47,34 @@ h {
   font-size: 5rem;
   line-height: 40px;
   color: #f7ae3b;
-  font-weight: 800;
+  font-family: Muli_ExtraBold;
+}
+
+.text {
+  font-family: Muli;
+  font-size: 1.8rem;
+  line-height: 35px;
 }
 
 button {
   background-color: transparent;
-  border: none;
 }
 
 .btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  outline: none;
-  cursor: pointer;
   height: 60px;
   border-radius: 99em;
   -webkit-border-radius: 99em;
   -moz-border-radius: 99em;
   -ms-border-radius: 99em;
   -o-border-radius: 99em;
+  font-family: Muli_ExtraBold;
   color: #fff;
-  font-weight: 800;
 }
 
 /* header */
@@ -71,7 +92,6 @@ button {
 
 .header-top {
   margin: 0 100px 100px 100px;
-  position: relative;
   padding-top: 70px;
 }
 
@@ -218,8 +238,6 @@ button {
   align-self: center;
   max-width: 915px;
   text-align: center;
-  font-size: 1.8rem;
-  line-height: 35px;
   margin-bottom: 90px;
 }
 
@@ -232,7 +250,7 @@ button {
   align-self: center;
   max-width: 1100px;
   min-height: 390px;
-  font-weight: bold;
+  font-family: Muli_Bold;
 }
 
 .smoothies__item {
@@ -254,7 +272,7 @@ button {
 .smoothies__item-title {
   font-size: 2.5rem;
   color: #f2612d;
-  font-weight: 800;
+  font-family: Muli_ExtraBold;
   text-align: center;
 }
 
@@ -295,12 +313,13 @@ button {
 }
 
 .about__title {
+  font-family: Muli_ExtraBold;
   font-size: 5.5rem;
   line-height: 60px;
   margin-top: 95px;
   margin-bottom: 65px;
   position: relative;
-  font-weight: 800;
+  font-family: Muli_ExtraBold;
 }
 
 .about__title-special {
@@ -324,7 +343,7 @@ button {
 }
 
 .about__list-item--extrabold {
-  font-weight: 800;
+  font-family: Muli_ExtraBold;
 }
 
 .about__list .about__list-item:not(:last-child) {
@@ -357,7 +376,7 @@ button {
   flex-basis: 25%;
   padding-top: 130px;
   color: #fff;
-  font-weight: 800;
+  font-family: Muli_ExtraBold;
 }
 
 .products__card:nth-child(1) {
@@ -388,7 +407,7 @@ button {
 }
 
 .products__card-description--medium {
-  font-weight: 400;
+  font-family: Muli;
 }
 
 .btn__products {
@@ -437,8 +456,6 @@ button {
 }
 
 .story__text {
-  font-size: 1.8rem;
-  line-height: 35px;
   margin-bottom: 60px;
 }
 
@@ -489,8 +506,6 @@ button {
 .testimonials__slaider-text {
   max-width: 450px;
   text-align: center;
-  font-size: 1.8rem;
-  line-height: 30px;
   margin-top: 50px;
   margin-right: 60px;
   color: #fff;
@@ -517,14 +532,16 @@ button {
 .testimonials__slaider-text::before {
   content: "Sarah A";
   position: absolute;
-  width: 765px;
+  width: 766px;
   height: 150px;
   color: #5a230d;
   font-size: 20rem;
   font-weight: 800;
-  bottom: 60px;
-  left: -145px;
+  letter-spacing: -0.02em;
+  bottom: 50px;
+  left: -170px;
   z-index: -1;
+  font-family: Muli_ExtraBold;
 }
 
 .testimonials__arrow {
@@ -590,10 +607,10 @@ button {
 
 .blog__post-title {
   color: #f2612d;
+  font-family: Muli_ExtraBold;
   font-size: 3rem;
   line-height: 40px;
   margin-top: 130px;
-  font-weight: 800;
   text-transform: uppercase;
   position: relative;
 }
@@ -605,14 +622,12 @@ button {
 }
 
 .blog__post-text {
-  font-size: 1.8rem;
-  line-height: 35px;
   max-width: 480px;
   margin-left: 75px;
 }
 
 .blog__post-link {
-  font-weight: 800;
+  font-family: Muli_ExtraBold;
 }
 
 .blog__link-arrow {
@@ -633,9 +648,9 @@ button {
   justify-content: center;
   align-items: center;
   color: #0aa566;
+  f font-family: Muli_ExtraBold;
   font-size: 2.4rem;
   letter-spacing: -0.02em;
-  font-weight: 800;
   margin-bottom: 45px;
 }
 
@@ -695,18 +710,18 @@ button {
 }
 
 .footer__title {
+  font-family: Muli_ExtraBold;
   font-size: 2.6rem;
   line-height: 40px;
   color: #fff;
   margin-bottom: 40px;
-  font-weight: 800;
 }
 
 .footer__menu-link {
   color: #6d450c;
+  font-family: Muli_ExtraBold;
   font-size: 1.8rem;
   line-height: 35px;
-  font-weight: 700;
 }
 
 .footer__menu-link:hover {
@@ -734,8 +749,8 @@ button {
   background-image: url(/assets/images/footer/Icon_input.svg);
   background-repeat: no-repeat;
   background-position: left 30px center;
+  font-family: Muli_ExtraBold;
   font-size: 1.7rem;
-  font-weight: 700;
   padding-left: 80px;
   border: none;
   margin-bottom: 35px;
@@ -820,19 +835,19 @@ button {
 }
 
 .go-top__link {
+  position: fixed;
   display: block;
   margin-left: 10px;
   height: 50px;
   width: 50px;
   border-radius: 5px;
-  background-color: #f1652f;
+  background-color: rgba(241, 101, 47, .3);
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  position: absolute;
-  right: -60px;
-  bottom: 14px;
+  right: 40px;
+  bottom: 35px;
 }
 
 .go-top__link::after {
@@ -1105,6 +1120,9 @@ button {
 
   .smoothies {
     margin-bottom: 25px;
+  }
+
+  .smoothies__text {
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -1141,12 +1159,31 @@ button {
     font-size: 1.5rem;
   } */
 
-  .testimonials {
-    min-height: 685px;
+  .testimonials__slaider {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 65px;
   }
 
   .testimonials__slaider-text::before {
-    font-size: 19rem;
+    bottom: -15px;
+  }
+
+  .testimonials__slaider-img {
+    max-width: 170px;
+    max-height: 170px;
+  }
+
+  .testimonials__title {
+    margin-bottom: 80px;
+  }
+
+  .testimonials__slaider-text {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 35px;
   }
 
   .blog {
@@ -1207,6 +1244,10 @@ button {
     background-position: left 20px center;
   }
 
+  .go-top__link {
+    right: 40px;
+    bottom: 35px;
+  }
 }
 
 @media (max-width:1024px) {
@@ -1254,24 +1295,6 @@ button {
     margin-top: 0;
     margin-right: 0;
     margin-bottom: 35px;
-  }
-
-  .testimonials__slaider {
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 65px;
-  }
-
-  .testimonials__slaider-text::before {
-    width: 740px;
-    bottom: -15px;
-  }
-
-  .testimonials__slaider-img {
-    max-width: 170px;
-    max-height: 170px;
   }
 
   .blog {
@@ -1369,6 +1392,10 @@ button {
     top: 0px;
   }
 
+  .testimonials__slaider-text::before {
+    font-size: 17rem;
+  }
+
   .instagram__cards {
     display: flex;
     flex-wrap: wrap;
@@ -1407,6 +1434,7 @@ button {
   .go-top__link {
     width: 40px;
     height: 40px;
+    right: 60px;
   }
 }
 
@@ -1424,6 +1452,26 @@ button {
     display: none;
   }
 
+  .header__burger-btn {
+    display: block;
+    position: fixed;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: 50px;
+    top: 30px;
+    right: 30px;
+    z-index: 99;
+  }
+
+  .header__burger-btn--line {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #fff;
+    height: 5px;
+    border-radius: 99em;
+  }
+
   .header__logo-img {
     width: 290px;
     position: absolute;
@@ -1434,24 +1482,26 @@ button {
     -o-transform: translate(-50%, -130%);
   }
 
-  .header__navigation-green {
+  /* for burger__menu*10 */
+
+  .header__navigation {
     height: 100vh;
-      position: fixed;
-      width: 100%;
-      z-index: 1;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background-color: #09a565;
-      display: flex;
-      flex-direction: column-reverse;
-      align-items: center;
-      justify-content: flex-end;
-      padding-top: 170px;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #09a565;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 170px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
   .header__links {
     margin-bottom: 100px;
@@ -1499,23 +1549,6 @@ button {
   .header__links-line::before {
     margin-left: 0;
     margin-right: 0;
-  }
-
-  .header__burger-btn {
-    display: block;
-    position: absolute;
-    width: 50px;
-    top: -155px;
-    right: -35px;
-    z-index: 99;
-  }
-
-  .header__burger-btn--line {
-    display: block;
-    margin-bottom: 10px;
-    background-color: #fff;
-    height: 5px;
-    border-radius: 99em;
   }
 
   .title {
@@ -1624,16 +1657,18 @@ button {
     width: 219px;
   }
 
-  .header__navigation-green {
-    padding-top: 130px;
+  /* for burger__menu*7 */
+
+  .header__navigation {
+    padding-top: 100px;
   }
 
-  .menu__item-green:not(:last-child) {
-    margin-bottom: 10px;
-  }
-
-  .header__links-green {
+  .header__links {
     margin-bottom: 55px;
+  }
+
+  .menu__item:not(:last-child) {
+    margin-bottom: 35px;
   }
 
   .header__links-line {
@@ -1650,7 +1685,6 @@ button {
   }
 
   .personal__list {
-    margin-bottom: 50px;
     margin-bottom: 30px;
   }
 
@@ -1777,9 +1811,14 @@ button {
   }
 
   .go-top__link {
+    position: fixed;
     width: 30px;
     height: 30px;
     bottom: 0;
+    margin: 0;
+    bottom: 20px;
+    right: 60px;
+    background-color: rgba(241, 101, 47, .5);
   }
 
   .go-top__link::after {
@@ -1813,6 +1852,16 @@ button {
     font-size: 1.5rem;
   }
 
+  /* for burger_menu*6 */
+
+  .header__navigation {
+    padding-top: 115px;
+  }
+
+  .header__links {
+    margin-bottom: 45px;
+  }
+
   .social__list,
   .personal__list {
     width: 200px;
@@ -1829,13 +1878,16 @@ button {
     height: 40px;
   }
 
+  .menu__item:not(:last-child) {
+    margin-bottom: 25px;
+  }
+
   .btn__about {
     width: 270px;
     height: 40px;
     padding: 0 25px 0;
     margin-bottom: 15px;
   }
-
 
   .about__img {
     display: none;
@@ -1930,12 +1982,11 @@ button {
   }
 
   .go-top__link {
-    right: -85px;
+    right: 15px;
   }
 }
 
 @media (max-width:400px) {
-
 
   /* .header__logo-img {
     width: 140px;
@@ -2077,6 +2128,10 @@ button {
     margin-left: 60%;
     margin-top: -15px;
   }
+
+  .go-top__link {
+    right: 20px;
+  }
 }
 
 @media (max-width:325px) {
@@ -2085,33 +2140,40 @@ button {
     margin-bottom: 150px;
   }
 
-  .header__navigation-green {
-    padding-top: 110px;
-}
 
-  .menu__list-green{
+  /* for burger__menu*7 */
+
+  .header__navigation {
+    padding-top: 100px;
+  }
+
+  .menu__list {
     font-size: 1.5rem;
     line-height: 30px;
   }
 
-  .header__links-green {
+  .personal__icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .social__list-item {
+    width: 25px;
+    height: 25px;
+  }
+
+  .social__icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .header__links {
     margin-bottom: 25px;
-}
+  }
 
-.personal__icon-green{
-  width: 25px;
-  height: 25px;
-}
-
-.social__list-item-green{
-  width: 25px;
-  height: 25px;
-}
-
-.social__icon-green{
-width: 15px;
-height: 15px;
-}
+  .menu__item:not(:last-child) {
+    margin-bottom: 15px;
+  }
 
   /* .header__logo-img {
     width: 185px;
