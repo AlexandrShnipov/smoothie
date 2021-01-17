@@ -1,1 +1,68 @@
 // main: ../main.less
+
+.about {
+  display: flex;
+  justify-content: center;
+  background-color: #11846d;
+  font-size: 2.1rem;
+  line-height: 22px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.about__img {
+  transform: translate(0px, 85px);
+  margin-right: 140px;
+    object-fit: contain;
+ }
+
+.about__content {
+  max-width: 615px;
+  color: #fff;
+}
+
+.about__title {
+  font-family: Muli_ExtraBold;
+  font-size: 5.5rem;
+  line-height: 60px;
+  margin-top: 95px;
+  margin-bottom: 65px;
+  position: relative;
+  }
+
+.about__title-special {
+  color: #cae941;
+}
+
+.about__title::before {
+  content: "";
+  position: absolute;
+  width: 450px;
+  height: 13px;
+  background-image: url(/assets/images/about/Line.svg);
+  left: 70px;
+  top: 115px;
+}
+
+.about__list {
+  margin-bottom: 50px;
+  list-style-image: url(/assets/images/about/icon-list.png);
+  list-style-position: inside;
+}
+
+.about__list-item--extrabold {
+  font-family: Muli_ExtraBold;
+}
+
+.about__list .about__list-item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.btn__about {
+  z-index: 1;
+  width: 380px;
+  border: 2px solid #f7b131;
+  background-color: inherit;
+  color: inherit;
+  padding: 0 30px 0;
+} 

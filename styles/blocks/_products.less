@@ -1,1 +1,59 @@
 // main: ../main.less
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 720px;
+  margin-bottom: 120px;
+}
+
+.products__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-basis: 25%;
+  padding-top: 130px;
+  color: #fff;
+  font-family: Muli_ExtraBold;
+}
+
+.products__card:nth-child(1) {
+  background-color: #622c1a;
+}
+
+.products__card:nth-child(2) {
+  background-color: #16876d;
+}
+
+.products__card:nth-child(3) {
+  background-color: #f8b13b;
+}
+
+.products__card:nth-child(4) {
+  background-color: #c34b1d;
+}
+
+.products__card-img {
+  margin-bottom: 35px;
+}
+
+.products__card-description {
+  margin-bottom: 60px;
+  font-size: 2rem;
+  color: inherit;
+  font-weight: inherit;
+}
+
+.products__card-description--medium {
+  font-family: Muli;
+}
+
+.btn__products {
+  background-color: inherit;
+  width: 205px;
+  border: 2px solid #fff;
+  padding: 0 35px 0;
+  font-size: 2.1rem;
+  line-height: 22px;
+}

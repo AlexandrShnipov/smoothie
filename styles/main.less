@@ -1,4 +1,4 @@
-// out: ./main.css, compress: false, sourseMap: false
+// out: ./main.css, compress: true, sourseMap: true
 
 @import "./variables.less";
 
@@ -6,11 +6,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-@font-face {
-  font-family: 'Muli';
-  src: url(/assets/fonts/Muli-Regular.woff);
 }
 
 html,
@@ -25,29 +20,20 @@ ul {
 
 a {
   text-decoration: none;
-  color: black;
-}
-
-h {
-  letter-spacing: -0.02em;
-}
-
-.title {
-  font-size: 5rem;
-  line-height: 40px;
-  color: #f7ae3b;
-  font-weight: 800;
-}
+  }
 
 // blocks
 
-// @import "./blocks/_header.less";
-// @import "./blocks/_button.less";
-// @import "./blocks/_about.less";
-// @import "./blocks/_blog.less";
-// @import "./blocks/_footer.less";
-// @import "./blocks/_instagram.less";
-// @import "./blocks/_products.less";
-// @import "./blocks/_smoothies.less";
-// @import "./blocks/_story.less";
-// @import "./blocks/_testimonials.less";
+@import "./blocks/_button.less";
+@import "./blocks/_title.less";
+@import "./blocks/_text.less";
+@import "./blocks/_font";
+@import "./blocks/_header.less";
+@import "./blocks/_smoothies.less";
+@import "./blocks/_about.less";
+@import "./blocks/_blog.less";
+@import "./blocks/_footer.less";
+@import "./blocks/_instagram.less";
+@import "./blocks/_products.less";
+@import "./blocks/_story.less";
+@import "./blocks/_testimonials.less";
