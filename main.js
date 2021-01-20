@@ -19,7 +19,7 @@ burgerMenu()
 
 // работает
 
-let buy_buttons = document.querySelectorAll('.btn__products')
+let buy_buttons = document.querySelectorAll('.products__btn')
 console.log(buy_buttons)
 let cart_count = document.getElementById('cart_count')
 
