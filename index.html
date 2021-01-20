@@ -17,7 +17,15 @@
 <body>
     <!-- Здесь будет структура документа -->
 
-  <header class="header" id="header">
+    <header class="header" id="header">
+
+        <!--  -->
+        <div id="burger_icon" class="burger_icon"></div>
+        <div id="burger_menu" class="burger_menu">
+            <div id="close_icon" class="close_icon"></div>
+        </div>
+        <!--  -->
+
         <div class="header-top">
             <button class="header__burger-btn">
                 <span class="header__burger-btn--line"></span>
@@ -52,22 +60,19 @@
                         <ul class="personal__list">
                             <li class="personal__list-item">
                                 <a class="personal__list-link" href="#">
-                                    <img class="personal__icon"
-                                        src="/assets/images/header/Search.svg" alt="search">
+                                    <img class="personal__icon" src="/assets/images/header/Search.svg" alt="search">
                                 </a>
                             </li>
                             <li class="personal__list-item">
                                 <a class="personal__list-link" href="#">
-                                    <img class="personal__icon"
-                                        src="/assets/images/header/User.svg" alt="user">
+                                    <img class="personal__icon" src="/assets/images/header/User.svg" alt="user">
                                 </a>
                             </li>
                             <li class="personal__link bag">
                                 <a class="personal__item" href="#">
-                                    <img class="personal__icon"
-                                        src="/assets/images/header/Cart.svg" alt="cart">
+                                    <img class="personal__icon" src="/assets/images/header/Cart.svg" alt="cart">
                                 </a>
-                                <span class="personal__icon-count">0</span>
+                                <span id="cart_count" class="personal__icon-count">0</span>
                             </li>
                         </ul>
                     </div>
@@ -77,20 +82,17 @@
                         <ul class="social__list">
                             <li class="social__list-item">
                                 <a class="social__list-link" href="#">
-                                    <img class="social__icon"
-                                        src="/assets/images/header/Facebook.svg" alt="facebook">
+                                    <img class="social__icon" src="/assets/images/header/Facebook.svg" alt="facebook">
                                 </a>
                             </li>
                             <li class="social__list-item">
                                 <a class="social__list-link" href="#">
-                                    <img class="social__icon"
-                                        src="/assets/images/header/Pinterest.svg" alt="pinterest">
+                                    <img class="social__icon" src="/assets/images/header/Pinterest.svg" alt="pinterest">
                                 </a>
                             </li>
                             <li class="social__list-item">
                                 <a class="social__list-link" href="#">
-                                    <img class="social__icon"
-                                        src="/assets/images/header/Instagram.svg" alt="instagram">
+                                    <img class="social__icon" src="/assets/images/header/Instagram.svg" alt="instagram">
                                 </a>
                             </li>
                         </ul>
@@ -206,7 +208,7 @@
                         Soy-Free</span>
                 </li>
             </ul>
-            <button class="btn btn__about">
+            <button class="about__btn btn">
                 About Organic Smoothie
                 <img class="arrow--yellow" src="/assets/images/Arrow-right.png" alt="Arrow">
             </button>
@@ -220,7 +222,7 @@
             <h5 class="products__card-description">
                 Dark Chocolate Smoothie <br> <span class="products__card-description--medium"> 100 ml</span>
             </h5>
-            <button class="btn__products btn"> Buy
+            <button class="products__btn btn"> Buy
                 <img class="arrow--white" src="/assets/images/products/Arrow.png" alt="Arrow">
             </button>
         </div>
@@ -229,7 +231,7 @@
             <h5 class="products__card-description">
                 Vegan Lettuce Smoothie <br> <span class="products__card-description--medium"> 100 ml</span>
             </h5>
-            <button class="btn__products btn"> Buy
+            <button class="products__btn btn"> Buy
                 <img class="arrow--white" src="/assets/images/products/Arrow.png" alt="Arrow">
             </button>
         </div>
@@ -238,7 +240,7 @@
             <h5 class="products__card-description">
                 Lemon Ginger Smoothie <br> <span class="products__card-description--medium"> 100 ml</span>
             </h5>
-            <button class="btn__products btn"> Buy
+            <button class="products__btn btn"> Buy
                 <img class="arrow--white" src="/assets/images/products/Arrow.png" alt="Arrow">
             </button>
         </div>
@@ -247,7 +249,7 @@
             <h5 class="products__card-description">
                 Turmeric Garlic Smoothie <br> <span class="products__card-description--medium"> 100 ml</span>
             </h5>
-            <button class="btn__products btn"> Buy
+            <button class="products__btn btn"> Buy
                 <img class="arrow--white" src="/assets/images/products/Arrow.png" alt="Arrow">
             </button>
         </div>
@@ -264,7 +266,7 @@
                 skin,
                 and seeds) and so are thicker than fruit juice, often with a consistency similar to a milkshake.
             </p>
-            <button class="btn__story btn"> Who we are
+            <button class="story__btn btn"> Who we are
                 <img src="/assets/images/Arrow-right.png" alt="Arrow">
             </button>
             <!-- для псевдоэлемента stamp -->
@@ -461,6 +463,8 @@
         </div>
     </section>
     <!-- /.footer -->
+
+    <script src="main.js"></script>
 </body>
 
 </html>

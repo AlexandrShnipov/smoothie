@@ -4,16 +4,16 @@
   min-height: 430px;
   position: relative;
   letter-spacing: -0.02em;
-}
 
-.footer__top {
+
+&__top {
   min-height: 370px;
   background-color: #f8b038;
   display: flex;
   align-items: center;
 }
 
-.footer-container {
+&-container {
   width: 90%;
   margin: auto;
   display: flex;
@@ -22,14 +22,14 @@
   justify-content: space-between;
 }
 
-.footer__navs {
+&__navs {
   width: 80%;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
 
-.footer__title {
+&__title {
   font-family: Muli_ExtraBold;
   font-size: 2.6rem;
   line-height: 40px;
@@ -37,32 +37,32 @@
   margin-bottom: 40px;
 }
 
-.footer__menu-link {
+&__menu-link {
   color: #6d450c;
   font-family: Muli_ExtraBold;
   font-size: 1.8rem;
   line-height: 35px;
 }
 
-.footer__menu-link:hover {
+&__menu-link:hover {
   color: #fff;
 }
 
-.footer__payment {
+&__payment {
   max-width: 260px;
 }
 
-.footer__payment-icon {
+&__payment-icon {
   display: inline-block;
   margin-right: 10px;
   margin-bottom: 15px;
 }
 
-.footer__contact {
+&__contact {
   width: 50%;
 }
 
-.footer__contact-input {
+&__contact-input {
   width: 100%;
   height: 60px;
   border-radius: 99em;
@@ -77,16 +77,16 @@
   cursor: pointer;
 }
 
-.footer__contact-input:focus-visible {
+&__contact-input:focus-visible {
   outline: 1px solid transparent;
 }
 
-.footer__contact-input::placeholder {
+&__contact-input::placeholder {
   color: #6d450c;
   font-weight: 700;
 }
 
-.footer__contact-btn {
+&__contact-btn {
   display: inline-block;
   margin-left: 30%;
   height: 18px;
@@ -98,11 +98,11 @@
    position: relative;
   }
 
-.footer__contact-btn:hover {
+&__contact-btn:hover {
   color: #fff;
 }
 
-.footer__contact-btn::before {
+&__contact-btn::before {
   content: "";
   width: 48px;
   height: 43px;
@@ -113,7 +113,7 @@
   right: 118px;
 }
 
-.footer__social-links {
+&__social-links {
   display: flex;
   justify-content: space-around;
   width: 170px;
@@ -121,7 +121,7 @@
   margin-top: -20px;
 }
 
-.footer__bottom {
+&__bottom {
   min-height: 60px;
   background-color: #682a1c;
   display: flex;
@@ -180,4 +180,5 @@
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
+}
 }
