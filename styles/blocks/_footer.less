@@ -11,6 +11,10 @@
   background-color: #f8b038;
   display: flex;
   align-items: center;
+
+  @media (max-width:900px){
+    padding-bottom: 20px;
+  }
 }
 
 &-container {
@@ -20,6 +24,30 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width:1366px){
+    width: 95%;
+  }
+
+  @media (max-width:1200px){
+    width: 85%;
+  }
+
+  @media (max-width:1100px){
+    width: 90%;
+    padding-top: 10px;
+  }
+
+  @media (max-width:600px){
+    width: 91%;
+  }
+}
+
+&__logo{
+  @media (max-width:1200px){
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
 }
 
 &__navs {
@@ -27,6 +55,30 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+
+  @media (max-width:1200px){
+    width: 100%;
+  }
+
+  @media (max-width:900px){
+    flex-wrap: wrap;
+  }
+
+  @media (max-width:550px){
+    justify-content: center;
+  }
+}
+
+&__info{
+  @media (max-width:900px){
+    flex-basis: 50%;
+  }
+
+  @media (max-width:550px){
+    max-width: 260px;
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
 }
 
 &__title {
@@ -35,6 +87,22 @@
   line-height: 40px;
   color: #fff;
   margin-bottom: 40px;
+
+  @media (max-width:1366px){
+    font-size: 2.4rem;
+  }
+
+  @media (max-width:1100px){
+    margin-bottom: 30px;
+  }
+
+  @media (max-width:900px){
+    margin-bottom: 15px;
+  }
+
+  @media (max-width:480px){
+    margin-bottom: 5px;
+  }
 }
 
 &__menu-link {
@@ -42,6 +110,14 @@
   font-family: Muli_ExtraBold;
   font-size: 1.8rem;
   line-height: 35px;
+
+  @media (max-width:1366px){
+    font-size: 1.7rem;
+  }
+
+  @media (max-width:480px){
+    font-size: 1.5rem;
+  }
 }
 
 &__menu-link:hover {
@@ -50,6 +126,15 @@
 
 &__payment {
   max-width: 260px;
+  
+  @media (max-width:900px){
+    flex-basis: 50%;
+  }
+
+  @media (max-width:550px){
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
 }
 
 &__payment-icon {
@@ -60,6 +145,14 @@
 
 &__contact {
   width: 50%;
+
+  @media (max-width:1200px){
+    width: 40%;
+  }
+
+  @media (max-width:900px){
+    flex-basis: 100%;
+  }
 }
 
 &__contact-input {
@@ -75,6 +168,25 @@
   border: none;
   margin-bottom: 35px;
   cursor: pointer;
+
+  @media (max-width:1100px){
+    padding-left: 70px;
+    background-position: left 20px center;
+  }
+
+  @media (max-width:900px){
+    height: 50px;
+  }
+
+  @media (max-width:400px){
+    background-position: left 30px center;
+    font-size: 1.3rem;
+    height: 35px;
+  }
+
+  @media (max-width:400px){
+    margin-bottom: 25px;
+  }
 }
 
 &__contact-input:focus-visible {
@@ -96,6 +208,18 @@
   background-color: inherit;
     user-select: none;
    position: relative;
+
+   @media (max-width:1200px){
+    font-size: 1.4rem;
+   }
+
+   @media (max-width:1100px){
+    margin-left: 20%;
+   }
+
+   @media (max-width:400px){
+    font-size: 1rem;
+   }
   }
 
 &__contact-btn:hover {
@@ -111,6 +235,15 @@
   background-repeat: no-repeat;
   bottom: 0px;
   right: 118px;
+
+  @media (max-width:1100px){
+    right: 90px;
+  }
+
+  @media (max-width:400px){
+    right: 70px;
+    bottom: -5px;
+  }
 }
 
 &__social-links {
@@ -119,6 +252,31 @@
   width: 170px;
   margin-left: 65%;
   margin-top: -20px;
+
+  @media (max-width:1200px){
+    margin-left: 55%;
+  }
+
+  @media (max-width:1100px){
+    margin-left: 50%;
+  }
+
+  @media (max-width:400px){
+    width: 130px;
+    justify-content: space-between;
+  }
+
+  @media (max-width:400px){
+    width: 100px;
+    margin-left: 60%;
+    margin-top: -15px;
+  }
+}
+
+&__social-icon{
+  @media (max-width:400px){
+    width: 60%;
+  }
 }
 
 &__bottom {
@@ -148,6 +306,10 @@
   font-size: 1.6rem;
   color: #fff;
   font-weight: 700;
+
+  @media (max-width:550px){
+    display: none;
+  }
 }
 
 .go-top__link {
@@ -164,6 +326,34 @@
   -o-border-radius: 5px;
   right: 40px;
   bottom: 35px;
+
+  @media (max-width:1100px){
+    right: 40px;
+    bottom: 35px;
+  }
+
+  @media (max-width:900px){
+    width: 40px;
+    height: 40px;
+    right: 60px;
+  }
+
+  @media (max-width:550px){
+        width: 30px;
+    height: 30px;
+    bottom: 0;
+    margin: 0;
+    bottom: 20px;
+    right: 60px;
+      }
+
+      @media (max-width:480px){
+        right: 15px; 
+      }
+
+      @media (max-width:400px) {
+        right: 20px;
+      }
 }
 
 .go-top__link::after {
@@ -180,5 +370,9 @@
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
+
+  @media (max-width:550px){
+    height: 25px;
+  }
 }
 }

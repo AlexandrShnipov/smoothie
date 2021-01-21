@@ -900,53 +900,10 @@ h {
 /* //////// */
 
 
-@media (max-width:1600px) {
-
-    /* .testimonials__img-dots {
-    right: 35px;
-    width: 350px;
-  } */
-}
-
 @media (max-width:1366px) {
 
   
-  .testimonials {
-    margin-bottom: 50px;
-  }
-
-  .testimonials__img-dots {
-    width: 285px;
-    top: -65px;
-  }
-
-  .blog__container {
-    max-width: 1180px;
-  }
-
-  .blog__post {
-    max-width: 980px;
-  }
-
-  .blog__post-title {
-    font-size: 2.5rem;
-  }
-
-  .blog__post-img {
-    width: 500px;
-  }
-
-  .blog__post-text {
-    margin-left: 20px;
-    max-width: 400px;
-    font-size: 1.5rem;
-  }
-
-  .blog__post::before {
-    left: 305px
-  }
-
-  .footer-container {
+  /* .footer-container {
     width: 95%;
   }
 
@@ -957,45 +914,21 @@ h {
   .footer__menu-link {
     font-size: 1.7rem;
   }
-}
+} */
 
 @media (max-width:1200px) {
  
-  .products {
-    margin-bottom: 25px;
-  }
-
-  .story {
-    margin-bottom: 80px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .story__text {
-    font-size: 1.5rem;
-    line-height: 3rem;
-  }
-
-  .story__images-stamp {
-    width: 250px;
-    height: 170px;
-  }
-
-  .testimonials__img-dots {
-    width: 200px;
-    top: -45px;
-  }
-
-  .footer-container {
+ 
+   /* .footer-container {
     width: 85%;
   }
 
   .footer__logo {
     margin: 0 auto;
     margin-bottom: 20px;
-  }
+  } */
 
-  .footer__navs {
+  /* .footer__navs {
     width: 100%;
   }
 
@@ -1009,426 +942,91 @@ h {
 
   .footer__social-links {
     margin-left: 55%;
-  }
+  } */
 }
 
 @media (max-width:1100px) {
 
-  
-   .products {
-    min-height: 610px;
-  }
+    
 
-  .products__card {
-    flex-basis: 50%;
-    padding-top: 60px;
-  }
-
-  .products__card-description {
-    margin-bottom: 35px;
-  }
-
-  .products__btn {
-    margin-bottom: 20px;
-    height: 50px;
-  }
-
-  /* .products__card {
-    padding-top: 80px;
-  }
-
-  .products__card-description {
-    margin-bottom: 45px;
-    font-size: 1.5rem;
-  } */
-
-  /* .btn__products {
-    height: 50px;
-    font-size: 1.5rem;
-  } */
-
-  .testimonials__slaider {
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 65px;
-  }
-
-  .testimonials__slaider-text::before {
-    bottom: -15px;
-  }
-
-  .testimonials__slaider-img {
-    max-width: 170px;
-    max-height: 170px;
-  }
-
-  .testimonials__title {
-    margin-bottom: 80px;
-  }
-
-  .testimonials__slaider-text {
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 35px;
-  }
-
-  .blog {
-    margin-bottom: 100px;
-  }
-
-  .blog__container {
-    max-width: 980px;
-  }
-
-  .blog__post-title {
-    font-size: 2rem;
-    margin-top: 115px;
-  }
-
-  .blog__post-img {
-    margin-right: 10px;
-  }
-
-  .blog__post::before {
-    left: 260px;
-  }
-
-  .blog__post-date {
-    font-size: 1.5rem;
-    line-height: 20px;
-    margin-bottom: 30px;
-  }
-
-  .blog__post-text {
-    font-size: 1.5rem;
-    margin-left: 15px;
-  }
-
-  .footer-container {
+  /* .footer-container {
     width: 90%;
     padding-top: 10px;
-  }
-
-  .footer__contact-btn::before {
-    right: 90px;
-  }
-
-  .footer__title {
-    margin-bottom: 30px;
-  }
-
-  .footer__contact-btn {
-    margin-left: 20%;
-  }
-
-  .footer__social-links {
-    margin-left: 50%;
-  }
-
-  .footer__contact-input {
-    padding-left: 70px;
-    background-position: left 20px center;
-  }
-
-  .go-top__link {
-    right: 40px;
-    bottom: 35px;
-  }
-}
-
-@media (max-width:1024px) {
-
-  /* .products__card {
-    flex-basis: 50%;
-    padding-top: 60px;
-  }
-
-  .products__card-description {
-    margin-bottom: 35px;
-  }
-
-  .btn__products {
-    margin-bottom: 20px;
   } */
 
-  .story {
-    flex-direction: column;
-    align-items: center;
-  }
+  /* .footer__contact-btn::before {
+    right: 90px;
+  } */
 
-  .story__title {
-    padding-top: 40px;
-    margin-bottom: 35px;
-  }
-
-  .story__text {
-    margin-bottom: 50px;
-  }
-
-  .story__images-stamp {
-    left: -110px;
-  }
-
-  .story__btn {
-    margin-bottom: 15px;
-  }
-
-  .testimonials__title {
-    margin-bottom: 80px;
-  }
-
-  .testimonials__slaider-text {
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 35px;
-  }
-
-  .blog {
-    margin-bottom: 40px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #f6ecdd;
-  }
-
-  .blog__container {
-    align-items: center;
-    max-width: 1100px;
-  }
-
-  .blog__post {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-
-  .blog__title {
-    margin-bottom: 35px;
-    margin-right: 345px;
-  }
-
-  .blog__post-title {
-    margin: 0px;
-  }
-
-  .blog__post-text {
-    margin-left: 0;
-    margin-bottom: 40px;
-    max-width: 550px;
-  }
-
-  .blog__post::before {
-    left: -65px;
-    top: 205px;
-  }
-
-  .blog__post-img {
-    margin: 0;
-    width: 800px;
-  }
-
-  .instagram__link {
+  /* .footer__title {
     margin-bottom: 30px;
-  }
+  } */
+
+  /* .footer__contact-btn {
+    margin-left: 20%;
+  } */
+
+  /* .footer__social-links {
+    margin-left: 50%;
+  } */
+
+  /* .footer__contact-input {
+    padding-left: 70px;
+    background-position: left 20px center;
+  } */
+
+  /* .go-top__link {
+    right: 40px;
+    bottom: 35px;
+  } */
 }
 
 @media (max-width:900px) {
 
+  
  
-
-  .story__images-stamp {
-    left: 325px;
-    top: 0px;
-  }
-
-  .testimonials__slaider-text::before {
-    font-size: 17rem;
-  }
-
-  .instagram__cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .instagram__card {
-    flex-basis: 33.33%;
-  }
-
-  .footer__top {
+  /* .footer__top {
     padding-bottom: 20px;
-  }
+  } */
 
-  .footer__title {
+  /* .footer__title {
     margin-bottom: 15px;
   }
 
   .footer__navs {
     flex-wrap: wrap;
-  }
+  } */
 
-  .footer__info,
+  /* .footer__info,
   .footer__payment {
     flex-basis: 50%;
-  }
+  } */
 
-  .footer__contact {
+  /* .footer__contact {
     flex-basis: 100%;
-  }
+  } */
 
-  .footer__contact-input {
+  /* .footer__contact-input {
     height: 50px;
-  }
+  } */
 
-  .go-top__link {
+  /* .go-top__link {
     width: 40px;
     height: 40px;
     right: 60px;
-  }
-}
-
-@media (max-width:768px) {
-
-   
-  .story__images-img {
-    width: 490px;
-    height: 545px;
-  }
-
-  .story__images-stamp {
-    left: 220px;
-    top: -30px;
-  }
-
-  .testimonials {
-    padding-top: 60px;
-  }
-
-  .testimonials__img-dots,
-  .testimonials__slaider-text::before {
-    display: none;
-  }
-
-  .testimonials__arrow {
-    max-width: 200px;
-  }
-
-  .blog__post::before {
-    display: none;
-  }
+  } */
 }
 
 @media (max-width:600px) {
 
-  .products__card {
-    flex-basis: 100%;
-  }
-
-  .blog__title {
-    margin-right: 280px;
-  }
-
-  .blog__post-text {
-    max-width: 435px;
-  }
-
-  .blog__post-img {
-    width: 460px;
-  }
-
-  .instagram__link {
-    font-size: 1.5rem;
-  }
-
-  .instagram__link-icon {
-    margin-right: 10px;
-    width: 21px;
-    height: 21px;
-  }
-
-  .instagram__card {
-    flex-basis: 50%;
-  }
-
-  .footer-container {
+    /* .footer-container {
     width: 91%;
-  }
+  } */
 }
 
 @media (max-width:550px) {
 
- 
-
-  .story {
-    margin-bottom: 50px;
-  }
-
-  .story__title {
-    padding-top: 10px;
-    margin-bottom: 20px;
-  }
-
-  .story__text {
-    margin-bottom: 30px;
-  }
-
-  .story__btn {
-    width: 280px;
-    height: 53px;
-    padding: 0 40px 0;
-    font-size: 1.5rem;
-  }
-
-  .story__images-img {
-    width: 400px;
-    height: 465px;
-  }
-
-  .story__images-stamp {
-    left: 175px;
-    top: -30px;
-  }
-
-  .testimonials {
-    min-height: 620px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-bottom: 40px;
-  }
-
-  .testimonials__title {
-    margin-bottom: 40px;
-  }
-
-  .testimonials__slaider-text {
-    font-size: 1.5rem;
-  }
-
-  .blog {
-    margin-bottom: 40px;
-  }
-
-  .blog__title {
-    margin-right: 0;
-    margin-bottom: 25px;
-  }
-
-  .blog__post-date {
-    margin-bottom: 20px;
-  }
-
-  .blog__post-text {
-    line-height: 30px;
-  }
-
-  .blog__post-text {
-    max-width: 400px;
-  }
-
-  .blog__post-img {
-    width: 400px;
-  }
-
-  .footer__navs {
+    /* .footer__navs {
     justify-content: center;
   }
 
@@ -1436,17 +1034,17 @@ h {
   .footer__payment {
     flex-basis: 100%;
     margin-bottom: 20px;
-  }
+  } */
 
-  .footer__info {
+  /* .footer__info {
     max-width: 260px;
   }
 
   .go-top__text {
     display: none;
-  }
+  } */
 
-  .go-top__link {
+  /* .go-top__link {
     position: fixed;
     width: 30px;
     height: 30px;
@@ -1459,67 +1057,13 @@ h {
 
   .go-top__link::after {
     height: 25px;
-  }
+  } */
 }
 
 @media (max-width:480px) {
-
+   
   
-  .story__images-img {
-    width: 380px;
-    height: 445px;
-  }
-
-  .story__images-stamp {
-    display: none;
-  }
-
-  .testimonials {
-    padding-top: 40px;
-    margin-bottom: 20px;
-  }
-
-  .testimonials__slaider-img {
-    max-width: 170px;
-    max-height: 170px;
-  }
-
-  .testimonials__slaider {
-    margin-bottom: 40px;
-  }
-
-  .blog__title {
-    margin-bottom: 20px;
-  }
-
-  .blog__post-date {
-    font-size: 1.2rem;
-  }
-
-  .blog__post-title {
-    font-size: 1.5rem;
-    line-height: 20px;
-  }
-
-  .blog__post-text {
-    font-size: 1.2rem;
-    line-height: 20px;
-    margin-bottom: 20px;
-  }
-
-  .blog__post-text {
-    max-width: 320px;
-  }
-
-  .blog__post-img {
-    width: 325px;
-  }
-
-  .instagram__card {
-    flex-basis: 100%;
-  }
-
-  .footer__title {
+      /* .footer__title {
     margin-bottom: 5px;
   }
 
@@ -1529,91 +1073,48 @@ h {
 
   .go-top__link {
     right: 15px;
-  }
+  } */
 }
 
 @media (max-width:400px) {
 
-    
-  .story__title {
-    padding-top: 0;
-    margin-bottom: 20px;
-  }
-
-  /* .title {
-    font-size: 3rem;
-  } */
-
-  .story__text {
-    font-size: 1.2rem;
-    line-height: 2rem;
-  }
-
-  .story__images-img {
-    width: 295px;
-    height: 350px;
-  }
-
-  .story__btn {
-    width: 200px;
-    height: 40px;
-    padding: 0 30px 0;
-  }
-
-  .testimonials__slaider {
-    margin-bottom: 40px;
-  }
-
-  .testimonials__slaider-img {
-    max-width: 140px;
-    max-height: 140px;
-  }
-
-  .blog__post-text {
-    max-width: 260px;
-  }
-
-  .blog__post-img {
-    width: 264px;
-  }
-
-  .footer__social-links {
+   /* .footer__social-links {
     width: 130px;
     justify-content: space-between;
-  }
+  } */
 
-  .footer__contact-input {
+  /* .footer__contact-input {
     background-position: left 30px center;
     font-size: 1.3rem;
     height: 35px;
-  }
+  } */
 
-  .footer__social-icon {
+  /* .footer__social-icon {
     width: 60%;
-  }
+  } */
 
-  .footer__contact-input {
+  /* .footer__contact-input {
     margin-bottom: 25px;
-  }
+  } */
 
-  .footer__contact-btn::before {
+  /* .footer__contact-btn::before {
     right: 70px;
     bottom: -5px;
   }
 
   .footer__contact-btn {
     font-size: 1rem;
-  }
+  } */
 
-  .footer__social-links {
+  /* .footer__social-links {
     width: 100px;
     margin-left: 60%;
     margin-top: -15px;
-  }
+  } */
 
-  .go-top__link {
+  /* .go-top__link {
     right: 20px;
-  }
+  } */
 }
 
 @media (max-width:325px) {

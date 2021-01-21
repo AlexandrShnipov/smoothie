@@ -3,6 +3,19 @@
 .blog {
   margin-bottom: 200px;
 
+  @media (max-width:1100px){
+    margin-bottom: 100px;
+  }
+
+  @media (max-width:1024px){
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f6ecdd;
+  }
+
+  @media (max-width:550px){
+    margin-bottom: 40px;
+  }
 
 &__container {
   margin: auto;
@@ -12,18 +25,57 @@
   padding-left: 20px;
   padding-right: 20px;
 
+  @media (max-width:1366px){
+    max-width: 1180px;
+  }
+
+  @media (max-width:1100px){
+    max-width: 980px;
+  }
+
+  @media (max-width:1024px){
+    align-items: center;
+    max-width: 1100px;
+  }
 }
 
 &__title {
   display: flex;
   align-items: flex-start;
   margin-bottom: 50px;
+
+  @media (max-width:1024px){
+    margin-bottom: 35px;
+    margin-right: 345px;
+  }
+
+  @media (max-width:600px){
+    margin-right: 280px;
+  }
+
+  @media (max-width:550px){
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  @media (max-width:480px){
+    margin-bottom: 20px;
+  }
 }
 
 &__post {
   display: flex;
   justify-content: space-between;
   position: relative;
+
+  @media (max-width:1366px){
+    max-width: 980px;
+  }
+
+  @media (max-width:1024px){
+    flex-direction: column-reverse;
+    align-items: center;
+  }
   }
 
 &__post-img {
@@ -31,6 +83,35 @@
   max-width: 555px;
   max-height: 400px;
   position: relative;
+
+  @media (max-width:1366px){
+    width: 500px;
+  }
+
+  @media (max-width:1100px){
+    margin-right: 10px;
+  }
+
+  @media (max-width:1024px){
+    margin: 0;
+    width: 800px;
+  }
+
+  @media (max-width:600px){
+    width: 460px;
+  }
+
+  @media (max-width:550px){
+    width: 400px; 
+  }
+
+  @media (max-width:480px){
+    width: 325px;
+  }
+
+  @media (max-width:400px){
+    width: 264px;
+  }
 }
 
 &__post::before {
@@ -43,6 +124,23 @@
   top: 70px;
   left: 550px;
   z-index: -1;
+
+  @media (max-width:1366px){
+    left: 305px
+  }
+
+  @media (max-width:1100px){
+    left: 260px;
+  }
+
+  @media (max-width:1024px){
+    left: -65px;
+    top: 205px;
+  }
+
+  @media (max-width:768px){
+    display: none;
+  }
 }
 
 &__post-item {
@@ -58,17 +156,86 @@
   margin-top: 130px;
   text-transform: uppercase;
   position: relative;
+
+  @media (max-width:1366px){
+    font-size: 2.5rem;
+  }
+
+  @media (max-width:1100px){
+    font-size: 2rem;
+    margin-top: 115px;
+  }
+
+  @media (max-width:1024px){
+ margin: 0px;
+  }
+
+  @media (max-width:480px){
+    font-size: 1.5rem;
+    line-height: 20px;
+  }
 }
 
 &__post-date {
   font-size: 1.6rem;
   line-height: 35px;
   margin-bottom: 50px;
+
+  @media (max-width:1100px){
+    font-size: 1.5rem;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+
+  @media (max-width:550px){
+    margin-bottom: 20px;
+  }
+
+  @media (max-width:480px){
+    font-size: 1.2rem;
+  }
 }
 
 &__post-text {
   max-width: 480px;
   margin-left: 75px;
+
+  @media (max-width:1366px){
+    margin-left: 20px;
+    max-width: 400px;
+    font-size: 1.5rem;
+  }
+
+  @media (max-width:1100px){
+    font-size: 1.5rem;
+    margin-left: 15px;
+  }
+
+  @media (max-width:1024px){
+    margin-left: 0;
+    margin-bottom: 40px;
+    max-width: 550px;
+  }
+
+  @media (max-width:600px){
+    max-width: 435px;
+  }
+
+  @media (max-width:550px){
+    line-height: 30px;
+    max-width: 400px;
+  }
+
+  @media (max-width:480px){
+    max-width: 320px;
+    font-size: 1.2rem;
+    line-height: 20px;
+    margin-bottom: 2rem;
+  }
+
+  @media (max-width:400px){
+    max-width: 260px;
+  }
 }
 
 &__post-link {
