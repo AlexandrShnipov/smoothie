@@ -9,6 +9,7 @@
     <!-- Сюда подключаем стили -->
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>
         Smoothie-project-start
     </title>
@@ -108,7 +109,10 @@
         <!-- /.header-top -->
 
         <div class="header__content">
-            <button class="header__btn btn"> Shop now
+            <button class="header__btn btn
+             wow animate__animated animate__bounceOut" data-wow-delay='.5s' data-wow-duration='1s'
+                data-wow-iteration='2'>
+                Shop now
                 <img class="arrow--yellow" src="/assets/images/Arrow-right.png" alt="Arrow">
             </button>
         </div>
@@ -128,49 +132,50 @@
         </p>
         <div class="smoothies__items">
             <div class="smoothies__item">
-                <img class="smoothies__item-img" src="/assets/images/smoothies/Icon-plant_basel.png" alt="image">
+                <img class="smoothies__item-img  wow animate__animated animate__bounceInLeft" data-wow-delay='.4s' data-wow-duration='1s'
+                src="/assets/images/smoothies/Icon-plant_basel.png" alt="image">
                 <h5 class="smoothies__item-title">
                     Plant Based
                 </h5>
             </div>
             <div class="smoothies__item">
-                <img class="smoothies__item-img" src="/assets/images/smoothies/Icon-vegan.png" alt="image">
+                <img class="smoothies__item-img  wow animate__animated animate__bounceInLeft" data-wow-delay='.2s' data-wow-duration='1s' src="/assets/images/smoothies/Icon-vegan.png" alt="image">
                 <h5 class="smoothies__item-title">
                     Vegan
                 </h5>
             </div>
             <div class="smoothies__item">
-                <img class="smoothies__item-img" src="/assets/images/smoothies/Icon-paleo.png" alt="image">
+                <img class="smoothies__item-img wow animate__animated animate__bounceInRight" data-wow-delay='.2s' data-wow-duration='1s' src="/assets/images/smoothies/Icon-paleo.png" alt="image">
                 <h5 class="smoothies__item-title">
                     Paleo
                 </h5>
             </div>
             <div class="smoothies__item">
-                <img class="smoothies__item-img" src="/assets/images/smoothies/Icon-gluten.png" alt="image">
+                <img class="smoothies__item-img wow animate__animated animate__bounceInRight" data-wow-delay='.4s' data-wow-duration='1s' src="/assets/images/smoothies/Icon-gluten.png" alt="image">
                 <h5 class="smoothies__item-title">
                     Gluten-Free
                 </h5>
             </div>
             <div class="smoothies__item">
-                <img class="smoothies__item-img" src="/assets/images/smoothies/Icon-corn-free.png" alt="image">
+                <img class="smoothies__item-img  wow animate__animated animate__bounceInLeft" data-wow-delay='.8s' data-wow-duration='1s' src="/assets/images/smoothies/Icon-corn-free.png" alt="image">
                 <h5 class="smoothies__item-title">
                     Corn-Free
                 </h5>
             </div>
             <div class="smoothies__item">
-                <img class="smoothies__item-img" src="/assets/images/smoothies/Icon-soy.png" alt="image">
+                <img class="smoothies__item-img  wow animate__animated animate__bounceInLeft" data-wow-delay='.6s' data-wow-duration='1s' src="/assets/images/smoothies/Icon-soy.png" alt="image">
                 <h5 class="smoothies__item-title">
                     Soy-Free
                 </h5>
             </div>
             <div class="smoothies__item">
-                <img class="smoothies__item-img" src="/assets/images/smoothies/Icon-ayurvedic.png" alt="image">
+                <img class="smoothies__item-img wow animate__animated animate__bounceInRight" data-wow-delay='.6s' data-wow-duration='1s' src="/assets/images/smoothies/Icon-ayurvedic.png" alt="image">
                 <h5 class="smoothies__item-title">
                     Ayurvedic
                 </h5>
             </div>
             <div class="smoothies__item">
-                <img class="smoothies__item-img" src="/assets/images/smoothies/Icon-love.png" alt="image">
+                <img class="smoothies__item-img wow animate__animated animate__bounceInRight" data-wow-delay='.8s' data-wow-duration='1s' src="/assets/images/smoothies/Icon-love.png" alt="image">
                 <h5 class="smoothies__item-title">
                     Made With Love
                 </h5>
@@ -180,7 +185,8 @@
     <!-- /.smoothies -->
 
     <section class="about" id="about">
-        <img class="about__img" src="/assets/images/about/Img.png" alt="image">
+        <img class="about__img" src="/assets/images/about/Img.png" alt="image" data-tilt data-tilt-max-glare="0.8"
+            data-tilt-scale="1.1" data-tilt-reset="false">
         <div class="about__content">
             <h2 class="about__title">
                 What makes Smoothie an <span class="about__title-special">awesome drink?</span>
@@ -208,7 +214,8 @@
                         Soy-Free</span>
                 </li>
             </ul>
-            <button class="about__btn btn">
+            <button class="about__btn btn  wow animate__animated animate__bounceOut" data-wow-delay='1s'
+                data-wow-duration='1s' data-wow-iteration='2'>
                 About Organic Smoothie
                 <img class="arrow--yellow" src="/assets/images/Arrow-right.png" alt="Arrow">
             </button>
@@ -222,7 +229,8 @@
             <h5 class="products__card-description">
                 Dark Chocolate Smoothie <br> <span class="products__card-description--medium"> 100 ml</span>
             </h5>
-            <button class="products__btn btn"> Buy
+            <button class="products__btn btn  wow animate__animated animate__bounceOut" data-wow-delay='.5s'
+                data-wow-duration='1s'> Buy
                 <img class="arrow--white" src="/assets/images/products/Arrow.png" alt="Arrow">
             </button>
         </div>
@@ -231,7 +239,8 @@
             <h5 class="products__card-description">
                 Vegan Lettuce Smoothie <br> <span class="products__card-description--medium"> 100 ml</span>
             </h5>
-            <button class="products__btn btn"> Buy
+            <button class="products__btn btn  wow animate__animated animate__bounceOut" data-wow-delay='1s'
+                data-wow-duration='1s'> Buy
                 <img class="arrow--white" src="/assets/images/products/Arrow.png" alt="Arrow">
             </button>
         </div>
@@ -240,7 +249,8 @@
             <h5 class="products__card-description">
                 Lemon Ginger Smoothie <br> <span class="products__card-description--medium"> 100 ml</span>
             </h5>
-            <button class="products__btn btn"> Buy
+            <button class="products__btn btn  wow animate__animated animate__bounceOut" data-wow-delay='1.5s'
+                data-wow-duration='1s'> Buy
                 <img class="arrow--white" src="/assets/images/products/Arrow.png" alt="Arrow">
             </button>
         </div>
@@ -249,7 +259,8 @@
             <h5 class="products__card-description">
                 Turmeric Garlic Smoothie <br> <span class="products__card-description--medium"> 100 ml</span>
             </h5>
-            <button class="products__btn btn"> Buy
+            <button class="products__btn btn  wow animate__animated animate__bounceOut" data-wow-delay='2s'
+                data-wow-duration='1s'> Buy
                 <img class="arrow--white" src="/assets/images/products/Arrow.png" alt="Arrow">
             </button>
         </div>
@@ -266,7 +277,8 @@
                 skin,
                 and seeds) and so are thicker than fruit juice, often with a consistency similar to a milkshake.
             </p>
-            <button class="story__btn btn"> Who we are
+            <button class="story__btn btn  wow animate__animated animate__bounceOut" data-wow-delay='.5s' data-wow-duration='1s'
+            data-wow-iteration='2'> Who we are
                 <img src="/assets/images/Arrow-right.png" alt="Arrow">
             </button>
             <!-- для псевдоэлемента stamp -->
@@ -470,6 +482,9 @@
     </section>
     <!-- /.footer -->
 
+
+    <script src="/libraries/wow.min.js"></script>
+    <script src="/libraries/vanilla-tilt.js"></script>
     <script src="main.js"></script>
 
 </body>
