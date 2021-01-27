@@ -1,20 +1,21 @@
-let burger_menu = document.getElementById('burger_menu')
 
-function burgerMenu() {
+let navigation = document.getElementById('header__navigation')
+  
+function headerNavigation() {
+  let burgerBtn = document.querySelector('.header__burger-btn')
+  // let close_icon = document.getElementById('close_icon')
 
-  let burger_icon = document.querySelector('.burger_icon')
-  let close_icon = document.getElementById('close_icon')
+  burgerBtn.addEventListener('click', toggleHeaderNavigation)
 
-  burger_icon.addEventListener('click', toggleBurgerMenu)
-
-  close_icon.addEventListener('click', toggleBurgerMenu)
+  // close_icon.addEventListener('click', toggleBurgerMenu)
 }
 
-function toggleBurgerMenu() {
-  burger_menu.classList.toggle('burger_menu_active')
+function toggleHeaderNavigation() {
+  console.log("clik")
+  navigation.classList.toggle('active')
 }
 
-burgerMenu()
+headerNavigation()
 
 
 // работает

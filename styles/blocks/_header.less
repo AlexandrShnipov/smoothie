@@ -78,14 +78,18 @@
     }
   }
 
-  &__burger-btn--line {
+  &__burger-btn--line
+   {
     @media (max-width:768px) {
       display: block;
-      margin-bottom: 10px;
       background-color: #fff;
       height: 5px;
       border-radius: 99em;
     }
+  }
+
+  &__burger-btn--line:not(:last-child) {
+    margin-bottom: 10px;
   }
 
   &__navigation {
@@ -100,24 +104,26 @@
 
     @media (max-width:768px) {
 
-      display: none;
-
       // for burger__menu
 
-    //   position: fixed;
-    //   width: 100%;
-    //   z-index: 1;
-    //   top: 0;
-    //   bottom: 0;
-    //   left: 0;
-    //   right: 0;
-    //   background-color: #09a565;
-    //   display: flex;
-    //   flex-direction: column-reverse;
-    //   align-items: center;
-    //   justify-content: flex-end;
-    //   padding-top: 170px;
-    // 
+      display: none;
+
+      &.active {
+        display: block;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #09a565;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: flex-end;
+        padding-top: 170px;
+      }
     }
 
     // for burger__menu
@@ -125,6 +131,10 @@
       padding-top: 100px;
     }
   }
+
+  // &__navigation_active{
+  //   display: block;
+  // }
 
   .menu__list {
     width: 540px;
@@ -496,7 +506,7 @@
 
   &__btn:hover {
     border: 2px solid white;
-      }
+  }
 
 
   &__btn:active {
