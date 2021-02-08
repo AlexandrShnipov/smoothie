@@ -52,3 +52,13 @@ for (let anchor of anchors) {
     })
   })
 }
+
+const goTop = document.querySelector('.go-top__link')
+window.addEventListener('scroll', function (){
+  if (window.scrollY > 0){
+goTop.style.display = 'flex'
+  }
+  else {
+    goTop.style.display = 'none'
+  }
+})
