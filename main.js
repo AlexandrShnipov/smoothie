@@ -1,4 +1,6 @@
 
+// ! меню навигации
+
 let navigation = document.getElementById('header__navigation')
   
 function headerNavigation() {
@@ -18,7 +20,7 @@ function toggleHeaderNavigation() {
 headerNavigation()
 
 
-// работает
+// ! счетчик корзины
 
 let buy_buttons = document.querySelectorAll('.products__btn')
 console.log(buy_buttons)
@@ -31,6 +33,8 @@ function addToCard() {
 for (let i = 0; i < buy_buttons.length; i++) {
   buy_buttons[i].addEventListener('click', addToCard)
 }
+
+// ! WOW
 
 new WOW().init();
 
@@ -52,6 +56,8 @@ for (let anchor of anchors) {
     })
   })
 }
+
+// ! goTop
 
 const goTop = document.querySelector('.go-top__link')
 window.addEventListener('scroll', function (){
