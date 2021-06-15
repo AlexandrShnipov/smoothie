@@ -1,30 +1,42 @@
 
-// ! меню навигации
+// ! menu navigation
 
 let navigation = document.getElementById('header__navigation')
+let burgerBtn = document.querySelector('.header__burger-btn')
+let closeIcon = document.getElementById('close__icon')
   
 function headerNavigation() {
-  let burgerBtn = document.querySelector('.header__burger-btn')
-  // let close_icon = document.getElementById('close_icon')
 
-  burgerBtn.addEventListener('click', toggleHeaderNavigation)
 
-  // close_icon.addEventListener('click', toggleBurgerMenu)
+  burgerBtn.addEventListener('click', openMobileMenu)
+
+  closeIcon.addEventListener('click', closeMobileMenu)
 }
-
-function toggleHeaderNavigation() {
-  console.log("clik")
-  navigation.classList.toggle('active')
-}
-
 headerNavigation()
 
 
-// ! счетчик корзины
+function openMobileMenu() {
+  console.log("open")
+  navigation.classList.add('active')
+  burgerBtn.classList.add('hidden');
+  closeIcon.classList.remove('hidden');
+}
+
+
+function closeMobileMenu() {
+  console.log('close')
+  navigation.classList.remove('active')
+  closeIcon.classList.add('hidden')
+  burgerBtn.classList.remove('hidden')
+}
+
+
+
+// !cart count
 
 let buy_buttons = document.querySelectorAll('.products__btn')
 console.log(buy_buttons)
-let cart_count = document.getElementById('cart_count')
+let cart_count = document.getElementById('cart__count')
 
 function addToCard() {
   cart_count.innerText = Number(cart_count.innerText) + 1

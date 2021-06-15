@@ -20,19 +20,18 @@
 
     <header class="header" id="header">
 
-        <!--  -->
-        <!-- <div id="burger_icon" class="burger_icon"></div>
-        <div id="burger_menu" class="burger_menu">
-            <div id="close_icon" class="close_icon"></div>
-        </div> -->
-        <!--  -->
-
         <div class="header-top">
+
+            <!-- burger btn -->
             <button class="header__burger-btn" id="header__burger-btn">
                 <span class="header__burger-btn--line"></span>
                 <span class="header__burger-btn--line"></span>
                 <span class="header__burger-btn--line"></span>
             </button>
+
+            <button class="close__icon hidden" id="close__icon"></button>
+            <!-- burger btn -->
+
             <div class="header__navigation" id="header__navigation">
                 <nav class="menu">
                     <ul class="menu__list">
@@ -73,7 +72,7 @@
                                 <a class="personal__list-link" href="#">
                                     <img class="personal__icon" src="/assets/images/header/cart.svg" alt="cart">
                                 </a>
-                                <span id="cart_count" class="personal__icon-count">0</span>
+                                <span id="cart__count" class="personal__icon-count">0</span>
                             </li>
                         </ul>
                     </div>
@@ -83,17 +82,20 @@
                         <ul class="social__list">
                             <li class="social__list-item">
                                 <a class="social__list-link" href="#">
-                                    <img class="social__list-icon" src="/assets/images/header/facebook.svg" alt="facebook">
+                                    <img class="social__list-icon" src="/assets/images/header/facebook.svg"
+                                        alt="facebook">
                                 </a>
                             </li>
                             <li class="social__list-item">
                                 <a class="social__list-link" href="#">
-                                    <img class="social__list-icon" src="/assets/images/header/pinterest.svg" alt="pinterest">
+                                    <img class="social__list-icon" src="/assets/images/header/pinterest.svg"
+                                        alt="pinterest">
                                 </a>
                             </li>
                             <li class="social__list-item">
                                 <a class="social__list-link" href="#">
-                                    <img class="social__list-icon" src="/assets/images/header/instagram.svg" alt="instagram">
+                                    <img class="social__list-icon" src="/assets/images/header/instagram.svg"
+                                        alt="instagram">
                                 </a>
                             </li>
                         </ul>

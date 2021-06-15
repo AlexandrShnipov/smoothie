@@ -71,6 +71,10 @@
       top: 30px;
       right: 20px;
       z-index: 99;
+
+      &.hidden {
+        display: none;
+      }
     }
 
     @media (max-width:325px) {
@@ -131,9 +135,24 @@
     }
   }
 
-  // &__navigation_active{
-  //   display: block;
-  // }
+  // close icon burger menu
+  .close__icon {
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    width: 50px;
+    height: 50px;
+    top: 23px;
+    right: 20px;
+    background: url("../assets/images/1/close.svg") no-repeat center;
+    background-size: contain;
+    z-index: 99;
+    display: block;
+
+    &.hidden {
+      display: none;
+    }
+  }
 
   .menu__list {
     width: 540px;
@@ -265,6 +284,8 @@
       margin-right: 0;
     }
   }
+
+
 
   .personal__list {
     width: 155px;
