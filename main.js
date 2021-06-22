@@ -2,30 +2,22 @@
 // ! menu navigation
 
 let navigation = document.getElementById('header__navigation')
-let burgerBtn = document.querySelector('.header__burger-btn')
+let burgerBtn = document.getElementById('header__burger-btn')
 
   
 function headerNavigation() {
-
- 
   burgerBtn.addEventListener('click', toggleMobileMenu)
- 
-}
+ }
+
 headerNavigation()
 
 
 function toggleMobileMenu() {
-  console.log("open")
+  console.log("active")
   navigation.classList.toggle('active');
   burgerBtn.classList.toggle('active');
  
 }
-
-
-function toggleBtn() {
-  console.log('toggleBtn');
- }
-
 
 
 // !cart count
