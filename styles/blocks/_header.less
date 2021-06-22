@@ -67,13 +67,55 @@
       outline: none;
       border: none;
       background-color: transparent;
-      width: 50px;
+      width: 60px;
+      height: 60px;
       top: 30px;
       right: 20px;
       z-index: 99;
+      padding: 5px;
 
-      &.hidden {
-        display: none;
+      span {
+        display: block;
+        background-color: #fff;
+        height: 5px;
+        border-radius: 99em;
+        position: relative;
+        transition: .1s;
+
+        &::before {
+          content: '';
+          display: block;
+          position: absolute;
+          transform: translateY(15px);
+          height: 5px;
+          width: 100%;
+          border-radius: 99em;
+          background-color: #fff;
+        }
+
+        &::after {
+          content: '';
+          display: block;
+          position: absolute;
+          transform: translateY(-15px);
+          height: 5px;
+          width: 100%;
+          border-radius: 99em;
+          background-color: #fff;
+        }
+      }
+
+      &.active span {
+        background-color: transparent;
+        ;
+      }
+
+      &.active span::before {
+        transform: rotate(45deg);
+      }
+
+      &.active span::after {
+        transform: rotate(-45deg);
       }
     }
 
@@ -82,18 +124,6 @@
     }
   }
 
-  &__burger-btn--line {
-    @media (max-width:768px) {
-      display: block;
-      background-color: #fff;
-      height: 5px;
-      border-radius: 99em;
-    }
-  }
-
-  &__burger-btn--line:not(:last-child) {
-    margin-bottom: 10px;
-  }
 
   &__navigation {
     // width: 1720px;
@@ -125,32 +155,13 @@
         flex-direction: column-reverse;
         align-items: center;
         justify-content: flex-end;
-        padding-top: 170px;
+        padding-top: 125px;
       }
     }
 
     // for burger__menu
     @media (max-width:550px) {
       padding-top: 100px;
-    }
-  }
-
-  // close icon burger menu
-  .close__icon {
-    position: fixed;
-    cursor: pointer;
-    border: none;
-    width: 50px;
-    height: 50px;
-    top: 23px;
-    right: 20px;
-    background: url("../assets/images/1/close.svg") no-repeat center;
-    background-size: contain;
-    z-index: 99;
-    display: block;
-
-    &.hidden {
-      display: none;
     }
   }
 
@@ -285,8 +296,6 @@
     }
   }
 
-
-
   .personal__list {
     width: 155px;
     display: flex;
@@ -323,17 +332,7 @@
       width: 25px;
       height: 25px;
     }
-
-    // @media (max-width:325px) {
-    //   width: 25px;
-    //   height: 25px;
-    // }
   }
-
-  // for burger_menu&&&&&&&&&&
-  // @media (max-width:480px) {
-  //   width: 25px;
-  // }
 
   /* счетчик корзины*/
   .bag {

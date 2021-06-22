@@ -3,32 +3,28 @@
 
 let navigation = document.getElementById('header__navigation')
 let burgerBtn = document.querySelector('.header__burger-btn')
-let closeIcon = document.getElementById('close__icon')
+
   
 function headerNavigation() {
 
-
-  burgerBtn.addEventListener('click', openMobileMenu)
-
-  closeIcon.addEventListener('click', closeMobileMenu)
+ 
+  burgerBtn.addEventListener('click', toggleMobileMenu)
+ 
 }
 headerNavigation()
 
 
-function openMobileMenu() {
+function toggleMobileMenu() {
   console.log("open")
-  navigation.classList.add('active')
-  burgerBtn.classList.add('hidden');
-  closeIcon.classList.remove('hidden');
+  navigation.classList.toggle('active');
+  burgerBtn.classList.toggle('active');
+ 
 }
 
 
-function closeMobileMenu() {
-  console.log('close')
-  navigation.classList.remove('active')
-  closeIcon.classList.add('hidden')
-  burgerBtn.classList.remove('hidden')
-}
+function toggleBtn() {
+  console.log('toggleBtn');
+ }
 
 
 
