@@ -73,50 +73,6 @@
       right: 20px;
       z-index: 99;
       padding: 5px;
-
-      span {
-        display: block;
-        background-color: #fff;
-        height: 5px;
-        border-radius: 99em;
-        position: relative;
-        transition: .1s;
-
-        &::before {
-          content: '';
-          display: block;
-          position: absolute;
-          transform: translateY(15px);
-          height: 5px;
-          width: 100%;
-          border-radius: 99em;
-          background-color: #fff;
-        }
-
-        &::after {
-          content: '';
-          display: block;
-          position: absolute;
-          transform: translateY(-15px);
-          height: 5px;
-          width: 100%;
-          border-radius: 99em;
-          background-color: #fff;
-        }
-      }
-
-      &.active span {
-        background-color: transparent;
-        ;
-      }
-
-      &.active span::before {
-        transform: rotate(45deg);
-      }
-
-      &.active span::after {
-        transform: rotate(-45deg);
-      }
     }
 
     @media (max-width:325px) {
@@ -124,6 +80,53 @@
     }
   }
 
+  // burger
+  &__burger-btn--line {
+    display: block;
+    background-color: #fff;
+    height: 5px;
+    border-radius: 99em;
+    position: relative;
+    transition: .1s;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      transform: translateY(15px);
+      height: 5px;
+      width: 100%;
+      border-radius: 99em;
+      background-color: #fff;
+      transition: .1s;
+
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      transform: translateY(-15px);
+      height: 5px;
+      width: 100%;
+      border-radius: 99em;
+      background-color: #fff;
+      transition: .1s;
+
+    }
+  }
+
+  &__burger-btn.active .header__burger-btn--line {
+    background-color: transparent;
+  }
+
+  &__burger-btn.active .header__burger-btn--line::before {
+    transform: rotate(45deg);
+  }
+
+  &__burger-btn.active .header__burger-btn--line::after {
+    transform: rotate(-45deg);
+  }
 
   &__navigation {
     // width: 1720px;
