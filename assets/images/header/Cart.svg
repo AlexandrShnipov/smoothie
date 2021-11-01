@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 22" width="24" height="22">
-	<defs>
-		<image width="24" height="22" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAWCAMAAADto6y6AAAAAXNSR0IB2cksfwAAAUpQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////aQ4yMwAAAG50Uk5TAEJSAUxRE/PJuv8im/tGN/SwOPmokE0Nwe4VB+HMEVplT24a57Od7x0gkf5UHkum7fDf9/j1e7elf4WJfp6+QSxV3o50Mb3QA67OEgwFrXH8NByLRWZOKeiNfS0I4L+pxt3U24gfqiP2MzaKgkBbnYcBAAABAElEQVR4nGNggAJGJmYgycLKgAbY2DlAEpxc3GgSPLx8IIpfQBBVXEhYBMIQ5RJDFheXkJSCsKRlZOWQJOS5FGBMRS4lhLiyiiqCo6YOsV9DU0NTS1tHVxMKdPUE9IFCGgwGhkYCXFwCxiYwYMrFZWqkbsBgZs5lYWlljQSsbGy57MwYGOy5GNF968DlCCQ1nZzRJVzUXUEud3P3QBVn9vTyBtG22j6oEr6GfmDaPyAQVSKIKxhMh6iHokqEmcqD6fCISFSJqIhoMB0TG4cqER8LtTQhEVUiKRnKSDHVS9WEg1Qh9TSoRLoKlyk8qEwyuAwzYXqzLLMRQZWdkwsSAwDbMyqY8CrC9wAAAABJRU5ErkJggg=="/>
-	</defs>
-	<style>
-		tspan { white-space:pre }
-	</style>
-	<use id="Cart-icon" href="#img1" x="0" y="0" />
-</svg>
