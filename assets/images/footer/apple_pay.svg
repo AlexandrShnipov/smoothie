@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36" height="36">
+	<defs>
+		<image width="36" height="36" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAMAAADW3miqAAAAAXNSR0IB2cksfwAAAkNQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////DLEJdAAAAMF0Uk5TAAkgX57H2uXp5NfAk1IZBhFBofD/ijM5r/WUJwx16tZWAhWb930DFqf8hg37cXL9+b7zTvjdRrvUHBC27j8e3nsBS6Oq6CEEc+JCy7fO/rK0xH4LPHZYChjTUTrSjedAV3oU7HnhQ1V4NMWoZsJwgVnv7ZbyWwcIYcgvXUU3puMpmJdUDkgSGh9NzPbxiL1MJOtE2U9kNbgxyi4Fa2CMZX+L0RsjglNag5BKzShqF2LG9NikvzttlWjcwzATnIdQZ6EvVWIAAAJ2SURBVHicfdTnW9NQFAbwt7LKEEQOCIqtpaWyq7IEFKxICyq1glAqQ6UM2aAIClpRrIMyBERRHAgunKDiXn+atwESWhvfL3mS/HLuPSd5AgiRrPHw9PL2kfr6+QesDQyCm6wLXh9CQnxCwyT/mA3h5JKIjZucSeRmmathkW9RrDJRSjeERRWt5s3WGPeGKDZuZWPxInUcSUhcRkmabdt9xdSO5KW+UlLT4tNFa+3MYCYza9duZOeIr7hHAe1eykXgPnFDeTro8wti9uceOFgYS2SQHzIasw4XuKgioPhISWipCWVJZgo5ym2y3GX4FdDy06qkqmM4fiIpDdVeTsgioJpaktWhkEhWj5NOSMbXaVCRAzWyi01odkIpfKU44lALO8Sgtaqt3UOp6UgMYKenmnl0egk1GjSdper8M116dffZc+oeb6Jc4bvqdaDzaK9pLccFeZP1YmNf5KVeXCbqB1/pCtuNzIar1wKv3xhgD9gHh9Stw4oR1eBNrdCdzkqjY7DmeEsZGa9sv9WAic7bksI7xZOr5tRDljrc5foZuDdlu5+sfUCVePgIAQIKMq50RzSNNqLHWg+amZ3NfJIqoGn2KoPhz6GneJY+ZMJzSsgHXtgBffmc8iWQyIbZMcYNk+jVa0iy32CCaPgtKmageJfH5tUyb2f3NGb/BQ4Z3n/wlKs+1hIZuxYXPgGLhv98Sx31sPqUAabPoiQi3IYR+xfHjvu+iqFv2u7v4wM/uL767SJodO5nhGVyqXl9dILoigv1KyOa+iVmOieEf4GpxP2KBaVYnd9mNyY9DM7JKKpyIX7N1XCNXldUYZEuR2aZ/xPFv9a/vmizcMVl3TgAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Footer">
+		<g id="Footer">
+			<g id="Payment">
+				<use id="Apple Pay" href="#img1" x="0" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>
