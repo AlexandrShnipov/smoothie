@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+	<defs>
+		<image width="20" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAAXNSR0IB2cksfwAAAPZQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////SKX8DgAAAFJ0Uk5TADCV2vr30YcgCJ7+/9u0ueX5fgEKxS0/zKGbja90MrXY9RWUL1dq2QmsyrrfyBP8pEBsXyH4zwcW6ISuF8tWA6laC23nqgJ28eLkx8amYASno/tTcyAAAADASURBVHicdc3lDsJAEATgwykMUoq7u3ux4q7v/zI015ZrAuyfmXyX2yVEHoPRZLZYbXbChnM44XJ7vOB9gmb+ANxBOYVQGBFNo4iplYsjobSkM8U+pTNZWnLIs/UFFGm6SrqbZb5C05zSITFVaVhqeqw3aFi9ArNmq03Thg7DLno0+4PhSLOxKJaVNsHUr7TZHAv1WVoivVrL+zZbYCepuj8cwZ/OLYiFHVPSLE4v19udIw+9fua3Sv90+YVEer7eE5AV3od9e4cAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Search-icon" href="#img1" x="0" y="0" />
+</svg>
